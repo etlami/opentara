@@ -1,0 +1,649 @@
+{
+  "sourceLanguage" : "de",
+  "strings" : {
+    "" : {
+
+    },
+    "–" : {
+
+    },
+    "%lld %%" : {
+
+    },
+    "→ zugeordnet: %@" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "→ assigned to: %@" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "→ asignado a: %@" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "→ attribué à : %@" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "→ assegnato a: %@" } }
+      }
+    },
+    "Abbrechen" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Cancel" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Cancelar" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Annuler" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Annulla" } }
+      }
+    },
+    "Als Messung speichern" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Save as measurement" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Guardar como medición" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Enregistrer comme mesure" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Salva come misurazione" } }
+      }
+    },
+    "Alter: %lld Jahre" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Age: %lld years" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Edad: %lld años" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Âge : %lld ans" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Età: %lld anni" } }
+      }
+    },
+    "Angezeigte Werte" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Displayed values" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Valores mostrados" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Valeurs affichées" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Valori mostrati" } }
+      }
+    },
+    "Assistiert wiegen" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Assisted weighing" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Pesaje asistido" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Pesée assistée" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Pesatura assistita" } }
+      }
+    },
+    "Assistiert wiegen (Baby/Tier)" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Assisted weighing (baby/pet)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Pesaje asistido (bebé/mascota)" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Pesée assistée (bébé/animal)" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Pesatura assistita (neonato/animale)" } }
+      }
+    },
+    "Automatik" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Automation" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Automatización" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Automatisation" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Automazione" } }
+      }
+    },
+    "Automatische Personen-Zuordnung" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Automatic profile assignment" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Asignación automática de perfil" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Attribution automatique du profil" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Assegnazione automatica del profilo" } }
+      }
+    },
+    "Baby/Tier wiegt" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Baby/pet weighs" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "El bebé/la mascota pesa" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Le bébé/l'animal pèse" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Il neonato/l'animale pesa" } }
+      }
+    },
+    "Benachrichtigungen aus" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Notifications off" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Notificaciones desactivadas" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Notifications désactivées" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Notifiche disattivate" } }
+      }
+    },
+    "Buy me a coffee ☕️" : {
+
+    },
+    "cm" : {
+
+    },
+    "Das Gewicht zusammen muss größer sein als allein." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The combined weight must be greater than alone." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "El peso juntos debe ser mayor que solo." } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Le poids ensemble doit être supérieur à celui seul." } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Il peso insieme deve essere maggiore di quello da solo." } }
+      }
+    },
+    "Daten (aktuelles Profil)" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Data (current profile)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Datos (perfil actual)" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Données (profil actuel)" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Dati (profilo corrente)" } }
+      }
+    },
+    "Datum" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Date" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Fecha" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Date" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Data" } }
+      }
+    },
+    "Diagramm" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Chart" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Gráfico" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Graphique" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Grafico" } }
+      }
+    },
+    "Einheit" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Unit" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Unidad" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Unité" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Unità" } }
+      }
+    },
+    "Einstellungen" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Settings" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Ajustes" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Réglages" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Impostazioni" } }
+      }
+    },
+    "Ergebnis" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Result" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Resultado" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Résultat" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Risultato" } }
+      }
+    },
+    "Erinnerung" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Reminder" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Recordatorio" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Rappel" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Promemoria" } }
+      }
+    },
+    "Erinnerungen sind für OpenTara deaktiviert. Bitte in den iOS-Einstellungen unter Mitteilungen erlauben." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Notifications are disabled for OpenTara. Please enable them in iOS Settings under Notifications." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Las notificaciones están desactivadas para OpenTara. Actívalas en Ajustes de iOS en Notificaciones." } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Les notifications sont désactivées pour OpenTara. Activez-les dans Réglages iOS sous Notifications." } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Le notifiche sono disattivate per OpenTara. Attivale in Impostazioni iOS in Notifiche." } }
+      }
+    },
+    "experimentell" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "experimental" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "experimental" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "expérimental" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "sperimentale" } }
+      }
+    },
+    "Exportieren (CSV)" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Export (CSV)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Exportar (CSV)" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Exporter (CSV)" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Esporta (CSV)" } }
+      }
+    },
+    "Farben = grobe Orientierung, keine medizinische Bewertung." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Colors = rough guidance, not a medical assessment." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Colores = orientación aproximada, no una evaluación médica." } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Couleurs = indication approximative, pas une évaluation médicale." } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Colori = orientamento approssimativo, non una valutazione medica." } }
+      }
+    },
+    "Fertig" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Done" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Listo" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Terminé" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Fine" } }
+      }
+    },
+    "Für ein eigenes Baby-/Tier-Profil kannst du oben rechts über das Profil-Symbol eine Person anlegen, z. B. Baby oder Hund." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "For a dedicated baby/pet profile, create a person via the profile icon at the top right, e.g. Baby or Dog." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Para un perfil de bebé/mascota, crea una persona con el icono de perfil arriba a la derecha, p. ej. Bebé o Perro." } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Pour un profil bébé/animal dédié, créez une personne via l'icône de profil en haut à droite, p. ex. Bébé ou Chien." } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Per un profilo dedicato a neonato/animale, crea una persona tramite l'icona del profilo in alto a destra, es. Neonato o Cane." } }
+      }
+    },
+    "Für eine Prognose sind mehrere Messungen über mindestens einen Tag nötig." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "A projection needs several measurements spanning at least one day." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Una previsión necesita varias mediciones a lo largo de al menos un día." } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Une prévision nécessite plusieurs mesures sur au moins une journée." } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Una previsione richiede più misurazioni nell'arco di almeno un giorno." } }
+      }
+    },
+    "Für Fett/Wasser/Muskel bitte **barfuß** messen – dann kommt die Impedanz mit." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "For fat/water/muscle, measure **barefoot** – then impedance is included." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Para grasa/agua/músculo, mide **descalzo** – así se incluye la impedancia." } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Pour la graisse/l'eau/le muscle, mesurez **pieds nus** – l'impédance est alors incluse." } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Per grasso/acqua/muscolo, misura **a piedi nudi** – così è inclusa l'impedenza." } }
+      }
+    },
+    "Geburtsdatum" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Date of birth" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Fecha de nacimiento" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Date de naissance" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Data di nascita" } }
+      }
+    },
+    "Gemessen: %@" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Measured: %@" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Medido: %@" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Mesuré : %@" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Misurato: %@" } }
+      }
+    },
+    "Geschlecht" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Sex" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Sexo" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Sexe" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Sesso" } }
+      }
+    },
+    "getestet" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "tested" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "probado" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "testé" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "testato" } }
+      }
+    },
+    "Gewicht" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Weight" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Peso" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Poids" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Peso" } }
+      }
+    },
+    "Gewicht/BMI werden immer angezeigt. Fett, Wasser & Co. nur, wenn barfuß (Impedanz) gemessen wurde. Der CSV-Export speichert Gewicht immer in kg. Experimentell bedeutet: Treiber ist portiert, aber noch nicht mit echter Hardware bestätigt." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Weight/BMI are always shown. Fat, water etc. only when measured barefoot (impedance). CSV export always stores weight in kg. Experimental means: the driver is ported but not yet confirmed on real hardware." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "El peso/IMC siempre se muestran. Grasa, agua, etc. solo al medir descalzo (impedancia). La exportación CSV siempre guarda el peso en kg. Experimental significa: el controlador está portado pero aún no confirmado en hardware real." } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Le poids/l'IMC sont toujours affichés. Graisse, eau, etc. seulement en mesure pieds nus (impédance). L'export CSV enregistre toujours le poids en kg. Expérimental signifie : le pilote est porté mais pas encore confirmé sur du matériel réel." } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Peso/BMI sono sempre mostrati. Grasso, acqua ecc. solo con misurazione a piedi nudi (impedenza). L'esportazione CSV salva sempre il peso in kg. Sperimentale significa: il driver è portato ma non ancora confermato su hardware reale." } }
+      }
+    },
+    "Größe" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Height" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Altura" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Taille" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Altezza" } }
+      }
+    },
+    "Impedanz" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Impedance" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Impedancia" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Impédance" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Impedenza" } }
+      }
+    },
+    "Impedanz nur ausfüllen, wenn bekannt – sie wird für Fett/Wasser/Muskel gebraucht. Ohne Impedanz gibt es nur Gewicht + BMI." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Only fill in impedance if known – it's needed for fat/water/muscle. Without it you only get weight + BMI." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Rellena la impedancia solo si la conoces – se necesita para grasa/agua/músculo. Sin ella solo hay peso + IMC." } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Ne renseignez l'impédance que si elle est connue – elle sert pour la graisse/l'eau/le muscle. Sans elle, seuls le poids et l'IMC sont calculés." } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Inserisci l'impedenza solo se nota – serve per grasso/acqua/muscolo. Senza, hai solo peso + BMI." } }
+      }
+    },
+    "Import" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Import" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Importación" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Importation" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Importazione" } }
+      }
+    },
+    "Importieren (CSV)" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Import (CSV)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Importar (CSV)" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Importer (CSV)" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Importa (CSV)" } }
+      }
+    },
+    "In Profil" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "To profile" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "En perfil" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Vers le profil" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Nel profilo" } }
+      }
+    },
+    "Kommentar" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Comment" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Comentario" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Commentaire" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Commento" } }
+      }
+    },
+    "Körperwerte" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Body metrics" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Valores corporales" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Données corporelles" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Valori corporei" } }
+      }
+    },
+    "Manuelle Messung" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Manual entry" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Entrada manual" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Saisie manuelle" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Inserimento manuale" } }
+      }
+    },
+    "Maße & Notiz" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Measurements & note" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Medidas y nota" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Mesures et note" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Misure e nota" } }
+      }
+    },
+    "Messung" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Measurement" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Medición" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Mesure" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Misurazione" } }
+      }
+    },
+    "Messung bearbeiten" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Edit measurement" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Editar medición" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Modifier la mesure" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Modifica misurazione" } }
+      }
+    },
+    "Messung löschen" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Delete measurement" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Eliminar medición" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Supprimer la mesure" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Elimina misurazione" } }
+      }
+    },
+    "Mindestens zwei Messungen nötig für ein Diagramm." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "At least two measurements are needed for a chart." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Se necesitan al menos dos mediciones para un gráfico." } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Au moins deux mesures sont nécessaires pour un graphique." } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Servono almeno due misurazioni per un grafico." } }
+      }
+    },
+    "Name" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Name" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Nombre" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Nom" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Nome" } }
+      }
+    },
+    "Neue Messung" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "New measurement" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Nueva medición" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Nouvelle mesure" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Nuova misurazione" } }
+      }
+    },
+    "Noch keine gespeicherten Messungen." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No saved measurements yet." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Aún no hay mediciones guardadas." } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Aucune mesure enregistrée." } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Nessuna misurazione salvata." } }
+      }
+    },
+    "Noch keine Messung. Waage suchen und draufstellen – oder oben links **+** für manuelle Eingabe." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No measurement yet. Search for the scale and step on – or tap **+** at the top left for manual entry." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Aún no hay medición. Busca la báscula y súbete – o pulsa **+** arriba a la izquierda para entrada manual." } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Aucune mesure. Cherchez la balance et montez dessus – ou touchez **+** en haut à gauche pour la saisie manuelle." } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Nessuna misurazione. Cerca la bilancia e salici sopra – o tocca **+** in alto a sinistra per l'inserimento manuale." } }
+      }
+    },
+    "Noch nichts empfangen." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Nothing received yet." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Aún no se ha recibido nada." } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Rien reçu pour l'instant." } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Ancora nulla ricevuto." } }
+      }
+    },
+    "Notiz" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Note" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Nota" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Note" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Nota" } }
+      }
+    },
+    "OK" : {
+
+    },
+    "Open-source smart scale companion · GPLv3" : {
+
+    },
+    "OpenTara" : {
+
+    },
+    "optional" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "optional" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "opcional" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "facultatif" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "facoltativo" } }
+      }
+    },
+    "Ordnet eine Messung automatisch der Person mit dem am besten passenden Gewicht zu. Bei Unklarheit fragt die App nach." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Automatically assigns a measurement to the person whose weight fits best. When unclear, the app asks." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Asigna automáticamente una medición a la persona cuyo peso encaja mejor. En caso de duda, la app pregunta." } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Attribue automatiquement une mesure à la personne dont le poids correspond le mieux. En cas de doute, l'app demande." } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Assegna automaticamente una misurazione alla persona con il peso più simile. In caso di dubbio, l'app chiede." } }
+      }
+    },
+    "PDF-Bericht (für Arzt)" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "PDF report (for your doctor)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Informe PDF (para el médico)" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Rapport PDF (pour le médecin)" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Report PDF (per il medico)" } }
+      }
+    },
+    "Person" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Person" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Persona" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Personne" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Persona" } }
+      }
+    },
+    "Profil" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Profile" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Perfil" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Profil" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Profilo" } }
+      }
+    },
+    "Profil bearbeiten" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Edit profile" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Editar perfil" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Modifier le profil" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Modifica profilo" } }
+      }
+    },
+    "Referenzperson (allein)" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Reference person (alone)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Persona de referencia (sola)" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Personne de référence (seule)" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Persona di riferimento (da sola)" } }
+      }
+    },
+    "Roh-Daten (Kalibrierung)" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Raw data (calibration)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Datos brutos (calibración)" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Données brutes (calibration)" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Dati grezzi (calibrazione)" } }
+      }
+    },
+    "Sichern" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Save" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Guardar" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Enregistrer" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Salva" } }
+      }
+    },
+    "Speichern" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Save" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Guardar" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Enregistrer" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Salva" } }
+      }
+    },
+    "Statistik" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Statistics" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Estadísticas" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Statistiques" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Statistiche" } }
+      }
+    },
+    "Suche läuft – stoppen" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Searching – stop" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Buscando – detener" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Recherche… – arrêter" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Ricerca… – ferma" } }
+      }
+    },
+    "Tägliche Wiege-Erinnerung" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Daily weigh-in reminder" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Recordatorio de pesaje diario" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Rappel de pesée quotidien" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Promemoria pesata giornaliera" } }
+      }
+    },
+    "Uhrzeit" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Time" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Hora" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Heure" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Ora" } }
+      }
+    },
+    "Umfänge (optional, cm)" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Circumferences (optional, cm)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Circunferencias (opcional, cm)" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Circonférences (facultatif, cm)" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Circonferenze (facoltativo, cm)" } }
+      }
+    },
+    "Unterstützte Waagen" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Supported scales" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Básculas compatibles" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Balances prises en charge" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Bilance supportate" } }
+      }
+    },
+    "Verlauf" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "History" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Historial" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Historique" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Cronologia" } }
+      }
+    },
+    "Verwerfen" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Discard" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Descartar" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Ignorer" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Ignora" } }
+      }
+    },
+    "Waage suchen" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Search for scale" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Buscar báscula" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Chercher la balance" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Cerca bilancia" } }
+      }
+    },
+    "Wer wurde gewogen?" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Who was weighed?" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "¿Quién se pesó?" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Qui a été pesé ?" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Chi è stato pesato?" } }
+      }
+    },
+    "Ziel" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Goal" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Objetivo" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Objectif" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Obiettivo" } }
+      }
+    },
+    "Ziel (optional)" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Goal (optional)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Objetivo (opcional)" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Objectif (facultatif)" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Obiettivo (facoltativo)" } }
+      }
+    },
+    "Zielgewicht" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Target weight" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Peso objetivo" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Poids cible" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Peso obiettivo" } }
+      }
+    },
+    "Zusammen (mit Baby/Tier)" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Combined (with baby/pet)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Juntos (con bebé/mascota)" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Ensemble (avec bébé/animal)" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Insieme (con neonato/animale)" } }
+      }
+    },
+    "Ω" : {
+
+    }
+  },
+  "version" : "1.0"
+}
