@@ -9,7 +9,7 @@ import CoreBluetooth
 /// `ScaleDriver` aus – passiv (Advertisement) oder per Verbindung (GATT).
 final class ScaleManager: NSObject, ObservableObject {
 
-    @Published var statusText: String = "Starte…"
+    @Published var statusText: String = String(localized: "Starte…")
     @Published var isScanning: Bool = false
     @Published var bluetoothReady: Bool = false
 
@@ -37,12 +37,12 @@ final class ScaleManager: NSObject, ObservableObject {
 
     func startScan() {
         guard central.state == .poweredOn else {
-            statusText = "Bluetooth nicht bereit"
+            statusText = String(localized: "Bluetooth nicht bereit")
             return
         }
         log.removeAll()
         isScanning = true
-        statusText = "Suche Waage… jetzt barfuß draufstellen"
+        statusText = String(localized: "Suche Waage… jetzt barfuß draufstellen")
         central.scanForPeripherals(
             withServices: nil,
             options: [CBCentralManagerScanOptionAllowDuplicatesKey: true]
@@ -55,7 +55,7 @@ final class ScaleManager: NSObject, ObservableObject {
         activePeripheral = nil
         activeDriver = nil
         isScanning = false
-        statusText = "Scan gestoppt"
+        statusText = String(localized: "Scan gestoppt")
     }
 
     private func appendLog(_ line: String) {
@@ -103,19 +103,19 @@ extension ScaleManager: CBCentralManagerDelegate {
         switch central.state {
         case .poweredOn:
             bluetoothReady = true
-            statusText = "Bluetooth bereit – auf Suchen tippen"
+            statusText = String(localized: "Bluetooth bereit – auf Suchen tippen")
         case .poweredOff:
             bluetoothReady = false
-            statusText = "Bluetooth ist ausgeschaltet"
+            statusText = String(localized: "Bluetooth ist ausgeschaltet")
         case .unauthorized:
             bluetoothReady = false
-            statusText = "Bluetooth-Berechtigung fehlt (Einstellungen)"
+            statusText = String(localized: "Bluetooth-Berechtigung fehlt (Einstellungen)")
         case .unsupported:
             bluetoothReady = false
-            statusText = "Bluetooth wird nicht unterstützt"
+            statusText = String(localized: "Bluetooth wird nicht unterstützt")
         default:
             bluetoothReady = false
-            statusText = "Bluetooth nicht verfügbar"
+            statusText = String(localized: "Bluetooth nicht verfügbar")
         }
     }
 
@@ -147,7 +147,7 @@ extension ScaleManager: CBCentralManagerDelegate {
             central.connect(peripheral, options: nil)
             let label = name ?? peripheral.identifier.uuidString
             DispatchQueue.main.async {
-                self.statusText = "Verbinde mit \(label)…"
+                self.statusText = String(localized: "Verbinde mit \(label)…")
                 self.appendLog("verbinde [\(driver.displayName)] \(label)")
             }
             return

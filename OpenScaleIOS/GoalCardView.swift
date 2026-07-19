@@ -55,7 +55,7 @@ struct GoalCardView: View {
         .frame(width: 96, height: 96)
     }
 
-    private func row(_ label: String, _ value: String) -> some View {
+    private func row(_ label: LocalizedStringKey, _ value: String) -> some View {
         HStack {
             Text(label).font(.subheadline).foregroundStyle(.secondary)
             Spacer()
@@ -65,8 +65,9 @@ struct GoalCardView: View {
 
     private func rateText(_ ratePerDay: Double) -> String {
         let perWeek = ratePerDay * 7
-        let dir = perWeek < -0.01 ? "abnehmend" : (perWeek > 0.01 ? "zunehmend" : "stabil")
-        return String(format: "Tempo: %.2f %@/Woche (%@)",
-                      unit.fromKg(abs(perWeek)), unit.short, dir)
+        let dir = perWeek < -0.01 ? String(localized: "abnehmend")
+            : (perWeek > 0.01 ? String(localized: "zunehmend") : String(localized: "stabil"))
+        let value = String(format: "%.2f %@", unit.fromKg(abs(perWeek)), unit.short)
+        return String(localized: "Tempo: \(value)/Woche (\(dir))")
     }
 }

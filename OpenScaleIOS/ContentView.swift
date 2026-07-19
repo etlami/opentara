@@ -233,7 +233,7 @@ struct ContentView: View {
         .card()
     }
 
-    private func metricRow(_ label: String, _ value: String,
+    private func metricRow(_ label: LocalizedStringKey, _ value: String,
                            level: AssessmentLevel = .unknown, note: String? = nil) -> some View {
         HStack(alignment: .firstTextBaseline) {
             Text(label).foregroundStyle(.secondary)

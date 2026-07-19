@@ -14,8 +14,8 @@ enum Sex: String, Codable, CaseIterable, Identifiable {
 
     var localized: String {
         switch self {
-        case .male:   return "Männlich"
-        case .female: return "Weiblich"
+        case .male:   return String(localized: "Männlich")
+        case .female: return String(localized: "Weiblich")
         }
     }
 }

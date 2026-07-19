@@ -121,7 +121,7 @@ struct MeasurementEditView: View {
         }
     }
 
-    private func circumferenceField(_ label: String, _ binding: Binding<String>) -> some View {
+    private func circumferenceField(_ label: LocalizedStringKey, _ binding: Binding<String>) -> some View {
         HStack {
             Text(label)
             Spacer()

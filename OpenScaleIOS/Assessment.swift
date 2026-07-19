@@ -34,12 +34,12 @@ enum Assessment {
     /// WHO-Gewichtsklasse zum BMI.
     static func bmiCategory(_ v: Double) -> String {
         switch v {
-        case ..<18.5: return "Untergewicht"
-        case ..<25:   return "Normalgewicht"
-        case ..<30:   return "Übergewicht"
-        case ..<35:   return "Adipositas Grad I"
-        case ..<40:   return "Adipositas Grad II"
-        default:      return "Adipositas Grad III"
+        case ..<18.5: return String(localized: "Untergewicht")
+        case ..<25:   return String(localized: "Normalgewicht")
+        case ..<30:   return String(localized: "Übergewicht")
+        case ..<35:   return String(localized: "Adipositas Grad I")
+        case ..<40:   return String(localized: "Adipositas Grad II")
+        default:      return String(localized: "Adipositas Grad III")
         }
     }
 

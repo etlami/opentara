@@ -85,7 +85,7 @@ struct AssistedWeighingView: View {
         }
     }
 
-    private func weightField(_ label: String, _ binding: Binding<Double>) -> some View {
+    private func weightField(_ label: LocalizedStringKey, _ binding: Binding<Double>) -> some View {
         HStack {
             Text(label)
             Spacer()

@@ -50,15 +50,15 @@ struct RatingScale {
 /// Deutsche Bezeichnung für die neun Körpertyp-Schlüssel.
 func bodyTypeLabel(_ key: String) -> String {
     switch key {
-    case "obese":             return "Adipös"
-    case "overweight":        return "Übergewichtig"
-    case "thick_set":         return "Kräftig"
-    case "lack_exercise":     return "Untrainiert"
-    case "balanced":          return "Ausgewogen"
-    case "balanced_muscular": return "Ausgewogen-muskulös"
-    case "skinny":            return "Schlank"
-    case "balanced_skinny":   return "Schlank-ausgewogen"
-    case "skinny_muscular":   return "Schlank-muskulös"
+    case "obese":             return String(localized: "Adipös")
+    case "overweight":        return String(localized: "Übergewichtig")
+    case "thick_set":         return String(localized: "Kräftig")
+    case "lack_exercise":     return String(localized: "Untrainiert")
+    case "balanced":          return String(localized: "Ausgewogen")
+    case "balanced_muscular": return String(localized: "Ausgewogen-muskulös")
+    case "skinny":            return String(localized: "Schlank")
+    case "balanced_skinny":   return String(localized: "Schlank-ausgewogen")
+    case "skinny_muscular":   return String(localized: "Schlank-muskulös")
     default:                  return key
     }
 }

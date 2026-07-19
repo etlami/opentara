@@ -4,6 +4,494 @@
     "" : {
 
     },
+    "abnehmend" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "decreasing" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "bajando" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "en baisse" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "in calo" } }
+      }
+    },
+    "Adipös" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Obese" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Obeso" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Obèse" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Obeso" } }
+      }
+    },
+    "Adipositas Grad I" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Obesity class I" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Obesidad grado I" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Obésité de classe I" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Obesità di grado I" } }
+      }
+    },
+    "Adipositas Grad II" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Obesity class II" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Obesidad grado II" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Obésité de classe II" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Obesità di grado II" } }
+      }
+    },
+    "Adipositas Grad III" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Obesity class III" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Obesidad grado III" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Obésité de classe III" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Obesità di grado III" } }
+      }
+    },
+    "Aktuell" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Current" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Actual" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Actuel" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Attuale" } }
+      }
+    },
+    "Ausgewogen" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Balanced" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Equilibrado" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Équilibré" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Equilibrato" } }
+      }
+    },
+    "Ausgewogen-muskulös" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Balanced-muscular" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Equilibrado-musculoso" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Équilibré-musclé" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Equilibrato-muscoloso" } }
+      }
+    },
+    "Bizeps" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Biceps" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Bíceps" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Biceps" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Bicipite" } }
+      }
+    },
+    "Bluetooth bereit – auf Suchen tippen" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Bluetooth ready – tap Search" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Bluetooth listo – toca Buscar" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Bluetooth prêt – touchez Rechercher" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Bluetooth pronto – tocca Cerca" } }
+      }
+    },
+    "Bluetooth ist ausgeschaltet" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Bluetooth is off" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Bluetooth está apagado" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Le Bluetooth est désactivé" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Il Bluetooth è disattivato" } }
+      }
+    },
+    "Bluetooth nicht bereit" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Bluetooth not ready" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Bluetooth no listo" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Bluetooth non prêt" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Bluetooth non pronto" } }
+      }
+    },
+    "Bluetooth nicht verfügbar" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Bluetooth not available" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Bluetooth no disponible" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Bluetooth indisponible" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Bluetooth non disponibile" } }
+      }
+    },
+    "Bluetooth wird nicht unterstützt" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Bluetooth not supported" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Bluetooth no compatible" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Bluetooth non pris en charge" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Bluetooth non supportato" } }
+      }
+    },
+    "Bluetooth-Berechtigung fehlt (Einstellungen)" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Bluetooth permission missing (Settings)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Falta permiso de Bluetooth (Ajustes)" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Autorisation Bluetooth manquante (Réglages)" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Autorizzazione Bluetooth mancante (Impostazioni)" } }
+      }
+    },
+    "Body Score" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Body Score" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Puntuación corporal" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Score corporel" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Punteggio corporeo" } }
+      }
+    },
+    "Brust" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Chest" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Pecho" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Poitrine" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Petto" } }
+      }
+    },
+    "Durchschnitt" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Average" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Promedio" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Moyenne" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Media" } }
+      }
+    },
+    "Fettfreie Masse" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Lean body mass" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Masa magra" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Masse maigre" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Massa magra" } }
+      }
+    },
+    "Gewicht allein" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Weight alone" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Peso solo" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Poids seul" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Peso da solo" } }
+      }
+    },
+    "Gewicht zusammen" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Weight together" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Peso juntos" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Poids ensemble" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Peso insieme" } }
+      }
+    },
+    "Größe" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Height" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Altura" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Taille" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Altezza" } }
+      }
+    },
+    "Grundumsatz" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Basal metabolism" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Metabolismo basal" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Métabolisme de base" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Metabolismo basale" } }
+      }
+    },
+    "Hüfte" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Hip" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Cadera" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Tour de hanches" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Fianchi" } }
+      }
+    },
+    "Ideales Gewicht" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Ideal weight" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Peso ideal" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Poids idéal" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Peso ideale" } }
+      }
+    },
+    "Knochenmasse" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Bone mass" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Masa ósea" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Masse osseuse" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Massa ossea" } }
+      }
+    },
+    "Körperfett" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Body fat" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Grasa corporal" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Masse grasse" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Grasso corporeo" } }
+      }
+    },
+    "Körpertyp" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Body type" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Tipo de cuerpo" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Type corporel" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Tipo corporeo" } }
+      }
+    },
+    "Kräftig" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Stocky" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Corpulento" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Robuste" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Robusto" } }
+      }
+    },
+    "Männlich" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Male" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Masculino" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Homme" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Maschio" } }
+      }
+    },
+    "Maximum" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Maximum" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Máximo" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Maximum" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Massimo" } }
+      }
+    },
+    "Messungen" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Measurements" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Mediciones" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Mesures" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Misurazioni" } }
+      }
+    },
+    "Metabol. Alter" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Metabolic age" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Edad metabólica" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Âge métabolique" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Età metabolica" } }
+      }
+    },
+    "Minimum" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Minimum" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Mínimo" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Minimum" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Minimo" } }
+      }
+    },
+    "Muskelmasse" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Muscle mass" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Masa muscular" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Masse musculaire" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Massa muscolare" } }
+      }
+    },
+    "Nacken" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Neck" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Cuello" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Cou" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Collo" } }
+      }
+    },
+    "Noch abnehmen" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Still to lose" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Por perder" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Reste à perdre" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Ancora da perdere" } }
+      }
+    },
+    "Noch zunehmen" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Still to gain" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Por ganar" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Reste à prendre" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Ancora da guadagnare" } }
+      }
+    },
+    "Oberschenkel" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Thigh" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Muslo" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Cuisse" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Coscia" } }
+      }
+    },
+    "Prognose" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Projection" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Previsión" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Prévision" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Previsione" } }
+      }
+    },
+    "Protein" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Protein" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Proteína" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Protéines" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Proteine" } }
+      }
+    },
+    "Schlank" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Slim" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Delgado" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Mince" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Snello" } }
+      }
+    },
+    "Schlank-ausgewogen" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Slim-balanced" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Delgado-equilibrado" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Mince-équilibré" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Snello-equilibrato" } }
+      }
+    },
+    "Schlank-muskulös" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Slim-muscular" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Delgado-musculoso" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Mince-musclé" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Snello-muscoloso" } }
+      }
+    },
+    "Spanne" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Range" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Rango" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Amplitude" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Intervallo" } }
+      }
+    },
+    "stabil" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "stable" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "estable" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "stable" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "stabile" } }
+      }
+    },
+    "Starte…" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Starting…" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Iniciando…" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Démarrage…" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Avvio…" } }
+      }
+    },
+    "Suche Waage… jetzt barfuß draufstellen" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Searching for scale… step on barefoot now" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Buscando báscula… súbete descalzo ahora" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Recherche de la balance… montez pieds nus maintenant" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Ricerca bilancia… salici a piedi nudi ora" } }
+      }
+    },
+    "Taille" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Waist" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Cintura" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Tour de taille" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Vita" } }
+      }
+    },
+    "Taille/Größe (WHtR)" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Waist/height (WHtR)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Cintura/altura (WHtR)" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Taille/hauteur (WHtR)" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Vita/altezza (WHtR)" } }
+      }
+    },
+    "Taille/Hüfte (WHR)" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Waist/hip (WHR)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Cintura/cadera (WHR)" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Tour de taille/hanches (WHR)" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Vita/fianchi (WHR)" } }
+      }
+    },
+    "Tempo: %@/Woche (%@)" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Rate: %1$@/week (%2$@)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Ritmo: %1$@/semana (%2$@)" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Rythme : %1$@/semaine (%2$@)" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Ritmo: %1$@/settimana (%2$@)" } }
+      }
+    },
+    "Übergewicht" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Overweight" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Sobrepeso" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Surpoids" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Sovrappeso" } }
+      }
+    },
+    "Übergewichtig" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Overweight" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Con sobrepeso" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "En surpoids" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "In sovrappeso" } }
+      }
+    },
+    "Untergewicht" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Underweight" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Bajo peso" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Insuffisance pondérale" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Sottopeso" } }
+      }
+    },
+    "Untrainiert" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Lacks exercise" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Falta de ejercicio" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Manque d'exercice" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Poco allenato" } }
+      }
+    },
+    "Verbinde mit %@…" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Connecting to %@…" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Conectando con %@…" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Connexion à %@…" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Connessione a %@…" } }
+      }
+    },
+    "Viszeralfett" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Visceral fat" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Grasa visceral" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Graisse viscérale" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Grasso viscerale" } }
+      }
+    },
+    "Wasser" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Water" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Agua" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Eau" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Acqua" } }
+      }
+    },
+    "Weiblich" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Female" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Femenino" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Femme" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Femmina" } }
+      }
+    },
+    "zunehmend" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "increasing" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "subiendo" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "en hausse" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "in aumento" } }
+      }
+    },
     "–" : {
 
     },

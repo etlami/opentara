@@ -16,6 +16,14 @@ struct HistoryChartView: View {
         case bmi    = "BMI"
         case fat    = "Körperfett"
         var id: String { rawValue }
+
+        var title: LocalizedStringKey {
+            switch self {
+            case .weight: return "Gewicht"
+            case .bmi:    return "BMI"
+            case .fat:    return "Körperfett"
+            }
+        }
     }
 
     @State private var metric: Metric = .weight
@@ -51,7 +59,7 @@ struct HistoryChartView: View {
                 Text("Diagramm").font(.headline)
                 Spacer()
                 Picker("", selection: $metric) {
-                    ForEach(Metric.allCases) { Text($0.rawValue).tag($0) }
+                    ForEach(Metric.allCases) { Text($0.title).tag($0) }
                 }
                 .pickerStyle(.segmented)
                 .fixedSize()
