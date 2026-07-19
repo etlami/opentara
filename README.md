@@ -53,7 +53,7 @@ See **[SUPPORTED_SCALES.md](SUPPORTED_SCALES.md)** for the live list and status.
 ## Build & run
 
 ```bash
-git clone https://github.com/<your-user>/opentara.git
+git clone https://github.com/etlami/opentara.git
 cd opentara
 open OpenScaleIOS.xcodeproj
 ```

@@ -1,5 +1,5 @@
 blank_issues_enabled: true
 contact_links:
   - name: Localization / translations
-    url: https://github.com/<your-user>/opentara/blob/main/LOCALIZATION.md
+    url: https://github.com/etlami/opentara/blob/main/LOCALIZATION.md
     about: How to add or improve a language
