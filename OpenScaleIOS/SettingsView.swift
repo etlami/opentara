@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 //
-// Freescale – lokale Körperwaagen-App
+// OpenTara – lokale Körperwaagen-App
 
 import SwiftUI
 import UniformTypeIdentifiers
@@ -94,6 +94,14 @@ struct SettingsView: View {
                     }
                 }
 
+                Section("OpenTara") {
+                    Link(destination: URL(string: "https://buymeacoffee.com/etlami")!) {
+                        Label("Buy me a coffee ☕️", systemImage: "cup.and.saucer")
+                    }
+                    Text("Open-source smart scale companion · GPLv3")
+                        .font(.footnote).foregroundStyle(.secondary)
+                }
+
                 Section {
                     Text("Gewicht/BMI werden immer angezeigt. Fett, Wasser & Co. nur, wenn barfuß (Impedanz) gemessen wurde. Der CSV-Export speichert Gewicht immer in kg. Experimentell bedeutet: Treiber ist portiert, aber noch nicht mit echter Hardware bestätigt.")
                         .font(.footnote).foregroundStyle(.secondary)
@@ -124,7 +132,7 @@ struct SettingsView: View {
             .alert("Benachrichtigungen aus", isPresented: $reminderDenied) {
                 Button("OK") { }
             } message: {
-                Text("Erinnerungen sind für Freescale deaktiviert. Bitte in den iOS-Einstellungen unter Mitteilungen erlauben.")
+                Text("Erinnerungen sind für OpenTara deaktiviert. Bitte in den iOS-Einstellungen unter Mitteilungen erlauben.")
             }
             .onAppear(perform: loadReminder)
             .onChange(of: reminderOn) { applyReminder() }
@@ -141,7 +149,7 @@ struct SettingsView: View {
                                       measurements: store.history(for: id),
                                       unit: store.weightUnit)
         let url = FileManager.default.temporaryDirectory
-            .appendingPathComponent("Freescale-Bericht.pdf")
+            .appendingPathComponent("OpenTara-Bericht.pdf")
         try? data.write(to: url)
         pdfURL = url
         showShare = true
@@ -179,7 +187,7 @@ struct SettingsView: View {
     private func exportFilename() -> String {
         let name = store.activeProfile?.name ?? "profil"
         let safe = name.components(separatedBy: CharacterSet.alphanumerics.inverted).joined(separator: "-")
-        return "freescale-\(safe.isEmpty ? "profil" : safe)"
+        return "opentara-\(safe.isEmpty ? "profil" : safe)"
     }
 
     private func handleImport(_ result: Result<URL, Error>) {

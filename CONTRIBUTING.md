@@ -1,4 +1,4 @@
-# Contributing to Freescale
+# Contributing to OpenTara
 
 Thanks for helping! The single most valuable contribution right now is **verifying
 scales on real hardware** — most drivers are ported blind from openScale and marked

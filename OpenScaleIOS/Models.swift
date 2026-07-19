@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 //
-// Freescale – lokale Körperwaagen-App
+// OpenTara – lokale Körperwaagen-App
 
 import Foundation
 

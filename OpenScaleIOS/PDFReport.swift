@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 //
-// Freescale – lokale Körperwaagen-App
+// OpenTara – lokale Körperwaagen-App
 
 import UIKit
 
@@ -32,7 +32,7 @@ enum PDFReport {
             var y: CGFloat = margin
             ctx.beginPage()
 
-            "Freescale – Gewichtsbericht".draw(
+            "OpenTara – Gewichtsbericht".draw(
                 at: CGPoint(x: margin, y: y), withAttributes: [.font: titleFont])
             y += 28
 

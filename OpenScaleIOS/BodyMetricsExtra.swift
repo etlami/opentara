@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 //
-// Freescale – lokale Körperwaagen-App
+// OpenTara – lokale Körperwaagen-App
 //
 // Bewertungstabellen, Körpertyp und Body Score aus bodymiscale portiert
 // (dckiller51/bodymiscale, GPLv3). Protein/Körpertyp/Score in Xiaomi-Logik,

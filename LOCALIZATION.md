@@ -1,6 +1,6 @@
 # Localization
 
-Freescale's UI is currently written in German string literals. SwiftUI makes these
+OpenTara's UI is currently written in German string literals. SwiftUI makes these
 localizable through a **String Catalog** (`Localizable.xcstrings`). The development
 (source) language is German; other languages are added as translations.
 

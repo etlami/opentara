@@ -1,6 +1,6 @@
 # Credits & attribution
 
-Freescale is licensed under **GPL‑3.0‑or‑later** (see [LICENSE](LICENSE)). It builds on
+OpenTara is licensed under **GPL‑3.0‑or‑later** (see [LICENSE](LICENSE)). It builds on
 the work of several open‑source projects, all GPLv3, whose formulas and reverse‑engineered
 Bluetooth protocols were ported to Swift.
 

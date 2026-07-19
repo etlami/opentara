@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 //
-// Freescale – lokale Körperwaagen-App
+// OpenTara – lokale Körperwaagen-App
 
 import SwiftUI
 
@@ -33,7 +33,7 @@ struct ContentView: View {
                 }
                 .padding()
             }
-            .navigationTitle("Freescale")
+            .navigationTitle("OpenTara")
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
                     Menu {

@@ -1,14 +1,13 @@
-# Freescale
+# OpenTara
+
+*Open-source smart scale companion.*
 
 **Local, private iOS app for Bluetooth body composition scales — no vendor account, no cloud.**
 
-Freescale reads Bluetooth body scales directly on your iPhone and computes the full
+OpenTara reads Bluetooth body scales directly on your iPhone and computes the full
 set of body metrics locally. All data stays on your device. It exists because the
 excellent [openScale](https://github.com/oliexdev/openScale) is Android‑only, leaving
 iPhone users with cloud‑bound vendor apps as the only option.
-
-> ⚠️ **Working title / trademark note:** "Freescale" is also a former semiconductor
-> company (now NXP). The name may change before any App Store release. Suggestions welcome.
 
 > ⚕️ **Not a medical device.** All values are estimates for personal orientation only.
 
@@ -54,8 +53,8 @@ See **[SUPPORTED_SCALES.md](SUPPORTED_SCALES.md)** for the live list and status.
 ## Build & run
 
 ```bash
-git clone https://github.com/<your-user>/freescale.git
-cd freescale
+git clone https://github.com/<your-user>/opentara.git
+cd opentara
 open OpenScaleIOS.xcodeproj
 ```
 
@@ -86,6 +85,12 @@ The app is being localized via a String Catalog. See
 
 No account, no network calls, no analytics. Everything is stored locally on the device.
 See **[PRIVACY.md](PRIVACY.md)**.
+
+## Support
+
+OpenTara is free and open source. If it's useful to you, you can support development:
+
+☕ **[Buy me a coffee](https://buymeacoffee.com/etlami)**
 
 ## Credits & license
 

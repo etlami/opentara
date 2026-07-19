@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 //
-// Freescale – lokale Körperwaagen-App
+// OpenTara – lokale Körperwaagen-App
 
 import Foundation
 import UserNotifications
 
 /// Plant/entfernt die tägliche Wiege-Erinnerung als lokale Benachrichtigung.
 enum ReminderManager {
-    static let identifier = "freescale.daily.reminder"
+    static let identifier = "opentara.daily.reminder"
 
     static func requestAuthorization(_ completion: @escaping (Bool) -> Void) {
         UNUserNotificationCenter.current()

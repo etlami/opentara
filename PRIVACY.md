@@ -1,6 +1,6 @@
 # Privacy
 
-Freescale is designed to be fully private and offline.
+OpenTara is designed to be fully private and offline.
 
 - **No account.** You never sign in anywhere.
 - **No cloud.** The app makes no network requests. Your measurements never leave the device.
