@@ -7,7 +7,7 @@ Status legend:
 
 | Scale | BLE name | Type | Metrics | Status |
 |-------|----------|------|---------|--------|
-| Xiaomi Mi Body Composition Scale 2 | `MIBFS` | advertisement | weight + impedance → full body composition | ⚠️ pending calibration |
+| Xiaomi Mi Body Composition Scale 2 | `MIBFS` | advertisement | weight + impedance → full body composition | ✅ verified |
 | Xiaomi Mi Smart Scale (v1) | `MI_SCALE` / `MI SCALE` | advertisement | weight only | 🧪 experimental |
 | Bluetooth‑SIG standard scales | varies | connection (GATT) | weight (0x2A9D); body composition + impedance (0x2A9C, best‑effort) | 🧪 experimental |
 

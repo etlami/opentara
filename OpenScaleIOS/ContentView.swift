@@ -10,8 +10,8 @@ struct ContentView: View {
 
     @State private var editingProfile: UserProfile?
     @State private var editingMeasurement: ScaleMeasurement?
-    @State private var pendingMeasurement: ScaleMeasurement?
     @State private var assignedInfo: String?
+    @State private var lastHandled: (weight: Double, date: Date, profileID: UUID)?
     @State private var showManualEntry = false
     @State private var showAssisted = false
     @State private var showSettings = false
@@ -95,20 +95,6 @@ struct ContentView: View {
             .onAppear {
                 scale.onStabilizedMeasurement = { m in
                     handleMeasurement(m)
-                }
-            }
-            .confirmationDialog("Wer wurde gewogen?",
-                isPresented: Binding(get: { pendingMeasurement != nil },
-                                     set: { if !$0 { pendingMeasurement = nil } }),
-                titleVisibility: .visible) {
-                ForEach(store.profiles) { p in
-                    Button(p.name) { assignPending(to: p.id) }
-                }
-                Button("Verwerfen", role: .destructive) { pendingMeasurement = nil }
-                Button("Abbrechen", role: .cancel) { pendingMeasurement = nil }
-            } message: {
-                if let m = pendingMeasurement {
-                    Text("Gemessen: \(store.weightUnit.format(kg: m.weightKg))")
                 }
             }
         }
@@ -349,27 +335,34 @@ struct ContentView: View {
 
     /// Neue Messung einsortieren – automatisch oder mit Nachfrage.
     private func handleMeasurement(_ m: ScaleMeasurement) {
-        guard store.autoAssign else {
-            if let id = store.activeProfileID { store.recordMeasurement(m, for: id) }
+        guard let activeID = store.activeProfileID else { return }
+
+        // Die Waage sendet dieselbe stabile Messung viele Male – innerhalb eines
+        // kurzen Fensters als denselben Wiege-Vorgang behandeln (nur aktualisieren,
+        // damit die Impedanz nachgetragen wird, aber kein neuer Eintrag/keine Rückfrage).
+        if let last = lastHandled,
+           abs(last.weight - m.weightKg) < 0.3,
+           m.date.timeIntervalSince(last.date) < 25 {
+            store.recordMeasurement(m, for: last.profileID)
+            lastHandled = (m.weightKg, m.date, last.profileID)
             return
         }
-        let match = store.bestProfileMatch(forWeightKg: m.weightKg)
-        if let id = match.id, !match.ambiguous {
-            store.recordMeasurement(m, for: id)
-            store.setActiveProfile(id)
-            assignedInfo = store.profiles.first { $0.id == id }?.name
-        } else {
-            pendingMeasurement = m
-        }
-    }
 
-    private func assignPending(to id: UUID) {
-        if let m = pendingMeasurement {
-            store.recordMeasurement(m, for: id)
-            store.setActiveProfile(id)
-            assignedInfo = store.profiles.first { $0.id == id }?.name
+        // Standardmäßig das vorausgewählte (aktive) Profil nutzen. Nur wenn die
+        // Automatik AN ist und das Gewicht eindeutig zu einer ANDEREN Person passt,
+        // wird dorthin gewechselt – ohne Rückfrage.
+        var targetID = activeID
+        if store.autoAssign, store.profiles.count > 1 {
+            let match = store.bestProfileMatch(forWeightKg: m.weightKg)
+            if let id = match.id, !match.ambiguous, id != activeID {
+                targetID = id
+            }
         }
-        pendingMeasurement = nil
+
+        store.recordMeasurement(m, for: targetID)
+        if targetID != activeID { store.setActiveProfile(targetID) }
+        assignedInfo = store.profiles.first { $0.id == targetID }?.name
+        lastHandled = (m.weightKg, m.date, targetID)
     }
 
     // MARK: - Historie

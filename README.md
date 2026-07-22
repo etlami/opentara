@@ -35,7 +35,7 @@ See **[SUPPORTED_SCALES.md](SUPPORTED_SCALES.md)** for the live list and status.
 
 | Scale | Type | Status |
 |-------|------|--------|
-| Xiaomi Mi Body Composition Scale 2 (MIBFS) | advertisement | ⚠️ pending hardware calibration |
+| Xiaomi Mi Body Composition Scale 2 (MIBFS) | advertisement | ✅ verified on hardware |
 | Xiaomi Mi Smart Scale v1 (weight only) | advertisement | 🧪 experimental |
 | Bluetooth‑SIG standard scales (0x181D / 0x181B) | connection | 🧪 experimental |
 

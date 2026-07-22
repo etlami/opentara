@@ -9,7 +9,7 @@ import CoreBluetooth
 /// Liest Gewicht + Impedanz passiv aus den Advertisement-Servicedaten (0x181B).
 struct MiBodyCompositionScale2Driver: ScaleDriver {
     let displayName = "Xiaomi Mi Body Composition Scale 2"
-    let isTested = false
+    let isTested = true
     let kind = ScaleConnectionKind.advertisement
 
     private let service = CBUUID(string: "181B")
