@@ -1336,6 +1336,7 @@
       }
     },
     "Gemessen: %@" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3563,6 +3564,7 @@
       }
     },
     "Verwerfen" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3703,6 +3705,7 @@
       }
     },
     "Wer wurde gewogen?" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {

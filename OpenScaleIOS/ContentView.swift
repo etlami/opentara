@@ -108,7 +108,7 @@ struct ContentView: View {
             Spacer()
             Picker("Profil", selection: Binding(
                 get: { store.activeProfileID ?? store.profiles.first?.id ?? UUID() },
-                set: { store.setActiveProfile($0) }
+                set: { store.setActiveProfile($0); assignedInfo = nil }
             )) {
                 ForEach(store.profiles) { p in
                     Text(p.name).tag(p.id)
@@ -128,10 +128,10 @@ struct ContentView: View {
                 .multilineTextAlignment(.center)
                 .frame(maxWidth: .infinity)
 
-            if let w = scale.lastWeightKg {
+            if let w = displayedWeightKg() {
                 Text(fmtW(w))
                     .font(.system(size: 44, weight: .bold, design: .rounded))
-                    .foregroundStyle(scale.lastStabilized ? .primary : .secondary)
+                    .foregroundStyle(scale.isScanning && !scale.lastStabilized ? .secondary : .primary)
             }
 
             Button {
@@ -433,20 +433,19 @@ struct ContentView: View {
 
     // MARK: - Berechnung / Trend
 
+    /// Große Gewichtszahl oben: live während des Scans, sonst der letzte Wert des aktiven Profils.
+    private func displayedWeightKg() -> Double? {
+        if scale.isScanning, let w = scale.lastWeightKg { return w }
+        guard let id = store.activeProfileID else { return nil }
+        return store.history(for: id).first?.weightKg
+    }
+
     private func currentComposition() -> (weight: Double, bmi: Double, comp: BodyComposition?)? {
         guard let p = store.activeProfile else { return nil }
 
-        let weight: Double
-        let impedance: Int?
-        if let w = scale.lastWeightKg {
-            weight = w
-            impedance = scale.lastImpedance
-        } else if let last = store.history(for: p.id).first {
-            weight = last.weightKg
-            impedance = last.impedance
-        } else {
-            return nil
-        }
+        guard let last = store.history(for: p.id).first else { return nil }
+        let weight = last.weightKg
+        let impedance = last.impedance
 
         let bmi = weight / pow(p.heightCm / 100, 2)
         var comp: BodyComposition?
