@@ -2204,6 +2204,9 @@
         }
       }
     },
+    "Mindestens zwei Barfuß-Messungen (mit Impedanz) nötig." : {
+
+    },
     "Mindestens zwei Messungen nötig für ein Diagramm." : {
       "localizations" : {
         "en" : {
@@ -3732,6 +3735,9 @@
           }
         }
       }
+    },
+    "Wert" : {
+
     },
     "Ziel" : {
       "localizations" : {
