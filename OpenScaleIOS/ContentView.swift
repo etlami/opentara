@@ -73,7 +73,7 @@ struct ContentView: View {
                 }
             }
             .sheet(item: $editingMeasurement) { m in
-                MeasurementEditView(existing: m, unit: store.weightUnit,
+                MeasurementEditView(existing: m, unit: store.weightUnit, profile: store.activeProfile,
                     onSave: { updated in
                         if let id = store.activeProfileID { store.updateMeasurement(updated, for: id) }
                     },
@@ -82,7 +82,7 @@ struct ContentView: View {
                     })
             }
             .sheet(isPresented: $showManualEntry) {
-                MeasurementEditView(existing: nil, unit: store.weightUnit, onSave: { new in
+                MeasurementEditView(existing: nil, unit: store.weightUnit, profile: store.activeProfile, onSave: { new in
                     if let id = store.activeProfileID { store.addManualMeasurement(new, for: id) }
                 })
             }

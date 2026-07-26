@@ -10,6 +10,7 @@ struct MeasurementEditView: View {
 
     let existing: ScaleMeasurement?
     let unit: WeightUnit
+    let profile: UserProfile?
     let onSave: (ScaleMeasurement) -> Void
     let onDelete: (() -> Void)?
 
@@ -27,10 +28,12 @@ struct MeasurementEditView: View {
 
     init(existing: ScaleMeasurement?,
          unit: WeightUnit = .kg,
+         profile: UserProfile? = nil,
          onSave: @escaping (ScaleMeasurement) -> Void,
          onDelete: (() -> Void)? = nil) {
         self.existing = existing
         self.unit = unit
+        self.profile = profile
         self.onSave = onSave
         self.onDelete = onDelete
         _weight = State(initialValue: unit.fromKg(existing?.weightKg ?? 70))
@@ -56,6 +59,22 @@ struct MeasurementEditView: View {
         Double(s.replacingOccurrences(of: ",", with: ".").trimmingCharacters(in: .whitespaces))
     }
 
+    /// Körperwerte dieser Messung – live aus Gewicht + Impedanz + Profil berechnet.
+    private var liveComposition: BodyComposition? {
+        guard let p = profile,
+              let imp = Int(impedanceText.trimmingCharacters(in: .whitespaces)), imp > 0 else { return nil }
+        return BodyMetrics(weight: unit.toKg(weight), height: p.heightCm,
+                           age: p.ageYears, sex: p.sex, impedance: imp).compute()
+    }
+
+    private func detailRow(_ label: LocalizedStringKey, _ value: String) -> some View {
+        HStack {
+            Text(label)
+            Spacer()
+            Text(value).foregroundStyle(.secondary).monospacedDigit()
+        }
+    }
+
     var body: some View {
         NavigationStack {
             Form {
@@ -76,6 +95,22 @@ struct MeasurementEditView: View {
                             .keyboardType(.numberPad)
                             .multilineTextAlignment(.trailing)
                         Text("Ω").foregroundStyle(.secondary)
+                    }
+                }
+
+                if let c = liveComposition {
+                    Section("Körperwerte") {
+                        detailRow("Körperfett", String(format: "%.1f %%", c.fatPercent))
+                        detailRow("Wasser", String(format: "%.1f %%", c.waterPercent))
+                        detailRow("Muskelmasse", unit.format(kg: c.muscleMassKg, decimals: 1))
+                        detailRow("Knochenmasse", unit.format(kg: c.boneMassKg, decimals: 1))
+                        detailRow("Viszeralfett", String(format: "%.0f", c.visceralFat))
+                        detailRow("Grundumsatz", String(format: "%.0f kcal", c.bmr))
+                        detailRow("Metabol. Alter", String(format: "%.0f Jahre", c.metabolicAge))
+                        detailRow("Protein", String(format: "%.1f %%", c.proteinPercent))
+                        detailRow("Fettfreie Masse", unit.format(kg: c.lbmKg, decimals: 1))
+                        detailRow("Körpertyp", bodyTypeLabel(c.bodyTypeKey))
+                        detailRow("Body Score", String(format: "%.0f / 100", c.bodyScore))
                     }
                 }
 
