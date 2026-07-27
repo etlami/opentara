@@ -164,8 +164,9 @@ struct HistoryChartView: View {
                     ForEach(pts) { pt in
                         PointMark(x: .value("Datum", pt.date),
                                   y: .value("Wert", pt.value))
-                            .foregroundStyle(.secondary.opacity(0.35))
-                            .symbolSize(16)
+                            .foregroundStyle(.secondary.opacity(0.5))
+                            .symbol(.circle)
+                            .symbolSize(24)
                     }
                     ForEach(trendPoints) { pt in
                         LineMark(x: .value("Datum", pt.date),
