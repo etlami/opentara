@@ -5,7 +5,7 @@
 import SwiftUI
 import Charts
 
-/// Verlaufs-Diagramm über die gespeicherten Messungen des aktiven Profils.
+/// Verlaufs-Diagramm mit Glättungskurve (EWMA) und Trend-Rate.
 /// Alle Werte werden pro Messung aus Gewicht + Impedanz + Profil neu berechnet.
 struct HistoryChartView: View {
     let profile: UserProfile
@@ -15,8 +15,6 @@ struct HistoryChartView: View {
     enum Metric: String, CaseIterable, Identifiable {
         case weight, bmi, fat, water, muscle, bone, visceral, protein, bmr, metaage, lbm
         var id: String { rawValue }
-
-        /// Braucht dieser Wert Impedanz (barfuß)?
         var needsImpedance: Bool { self != .weight && self != .bmi }
 
         var title: LocalizedStringKey {
@@ -36,7 +34,29 @@ struct HistoryChartView: View {
         }
     }
 
+    enum Period: String, CaseIterable, Identifiable {
+        case d30, d90, y1, all
+        var id: String { rawValue }
+        var days: Int? {
+            switch self {
+            case .d30: return 30
+            case .d90: return 90
+            case .y1:  return 365
+            case .all: return nil
+            }
+        }
+        var title: LocalizedStringKey {
+            switch self {
+            case .d30: return "30 Tage"
+            case .d90: return "90 Tage"
+            case .y1:  return "1 Jahr"
+            case .all: return "Alles"
+            }
+        }
+    }
+
     @State private var metric: Metric = .weight
+    @State private var period: Period = .d90
 
     private struct ChartPoint: Identifiable {
         let id = UUID()
@@ -44,7 +64,7 @@ struct HistoryChartView: View {
         let value: Double
     }
 
-    private func value(for m: ScaleMeasurement) -> Double? {
+    private func rawValue(_ m: ScaleMeasurement) -> Double? {
         switch metric {
         case .weight:
             return unit.fromKg(m.weightKg)
@@ -70,9 +90,50 @@ struct HistoryChartView: View {
     }
 
     private var points: [ChartPoint] {
-        measurements
-            .compactMap { m in value(for: m).map { ChartPoint(date: m.date, value: $0) } }
+        let cutoff = period.days.flatMap {
+            Calendar.current.date(byAdding: .day, value: -$0, to: Date())
+        }
+        return measurements
+            .filter { cutoff == nil || $0.date >= cutoff! }
+            .compactMap { m in rawValue(m).map { ChartPoint(date: m.date, value: $0) } }
             .sorted { $0.date < $1.date }
+    }
+
+    /// Exponentiell geglättete Trendkurve.
+    private var trendPoints: [ChartPoint] {
+        let pts = points
+        guard let first = pts.first else { return [] }
+        let alpha = 0.3
+        var t = first.value
+        return pts.map { p in
+            t += alpha * (p.value - t)
+            return ChartPoint(date: p.date, value: t)
+        }
+    }
+
+    /// Änderung pro Woche (lineare Regression über den Zeitraum).
+    private var weeklyRate: Double? {
+        let pts = points
+        guard pts.count >= 2, let first = pts.first,
+              let last = pts.last, last.date > first.date else { return nil }
+        let x = pts.map { $0.date.timeIntervalSince(first.date) / 86_400.0 }
+        let y = pts.map { $0.value }
+        let n = Double(x.count)
+        let sx = x.reduce(0, +), sy = y.reduce(0, +)
+        let sxy = zip(x, y).map { $0 * $1 }.reduce(0, +)
+        let sx2 = x.map { $0 * $0 }.reduce(0, +)
+        let denom = n * sx2 - sx * sx
+        guard abs(denom) > 1e-9 else { return nil }
+        return (n * sxy - sx * sy) / denom * 7.0
+    }
+
+    private var suffix: String {
+        switch metric {
+        case .fat, .water, .protein: return "%"
+        case .bmr: return "kcal"
+        case .weight, .muscle, .bone, .lbm: return unit.short
+        default: return ""
+        }
     }
 
     var body: some View {
@@ -86,6 +147,11 @@ struct HistoryChartView: View {
                 .pickerStyle(.menu)
             }
 
+            Picker("", selection: $period) {
+                ForEach(Period.allCases) { Text($0.title).tag($0) }
+            }
+            .pickerStyle(.segmented)
+
             let pts = points
             if pts.count < 2 {
                 Text(metric.needsImpedance
@@ -94,15 +160,31 @@ struct HistoryChartView: View {
                     .font(.footnote).foregroundStyle(.secondary)
                     .frame(maxWidth: .infinity, minHeight: 80)
             } else {
-                Chart(pts) { pt in
-                    LineMark(x: .value("Datum", pt.date),
-                             y: .value("Wert", pt.value))
-                    .interpolationMethod(.catmullRom)
-                    PointMark(x: .value("Datum", pt.date),
-                              y: .value("Wert", pt.value))
+                Chart {
+                    ForEach(pts) { pt in
+                        PointMark(x: .value("Datum", pt.date),
+                                  y: .value("Wert", pt.value))
+                            .foregroundStyle(.secondary.opacity(0.35))
+                            .symbolSize(16)
+                    }
+                    ForEach(trendPoints) { pt in
+                        LineMark(x: .value("Datum", pt.date),
+                                 y: .value("Trend", pt.value))
+                            .foregroundStyle(Color.accentColor)
+                            .interpolationMethod(.catmullRom)
+                            .lineStyle(StrokeStyle(lineWidth: 2.5))
+                    }
                 }
                 .chartYScale(domain: .automatic(includesZero: false))
                 .frame(height: 200)
+
+                if let r = weeklyRate {
+                    let arrow = r > 0.005 ? "arrow.up.right"
+                        : (r < -0.005 ? "arrow.down.right" : "arrow.right")
+                    let rateStr = String(format: "%+.2f %@", r, suffix)
+                    Label(String(localized: "Trend: \(rateStr)/Woche"), systemImage: arrow)
+                        .font(.caption).foregroundStyle(.secondary)
+                }
             }
         }
         .frame(maxWidth: .infinity, alignment: .leading)
