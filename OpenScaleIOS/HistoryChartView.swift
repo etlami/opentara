@@ -175,8 +175,29 @@ struct HistoryChartView: View {
                             .lineStyle(StrokeStyle(lineWidth: 2.5))
                     }
                 }
+                .chartXAxis {
+                    AxisMarks(values: .automatic(desiredCount: 4)) { _ in
+                        AxisGridLine()
+                        AxisTick()
+                        AxisValueLabel(format: .dateTime.day().month(.abbreviated))
+                    }
+                }
                 .chartYScale(domain: .automatic(includesZero: false))
                 .frame(height: 200)
+
+                HStack(spacing: 14) {
+                    HStack(spacing: 5) {
+                        Circle().fill(Color.secondary.opacity(0.5))
+                            .frame(width: 7, height: 7)
+                        Text("Messungen")
+                    }
+                    HStack(spacing: 5) {
+                        RoundedRectangle(cornerRadius: 1).fill(Color.accentColor)
+                            .frame(width: 16, height: 3)
+                        Text("Trend (geglättet)")
+                    }
+                }
+                .font(.caption2).foregroundStyle(.secondary)
 
                 if let r = weeklyRate {
                     let arrow = r > 0.005 ? "arrow.up.right"

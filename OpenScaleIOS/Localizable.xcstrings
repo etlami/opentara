@@ -32,6 +32,90 @@
         }
       }
     },
+    "1 Jahr": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 year"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 año"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 an"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 anno"
+          }
+        }
+      }
+    },
+    "30 Tage": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "30 days"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "30 días"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "30 jours"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "30 giorni"
+          }
+        }
+      }
+    },
+    "90 Tage": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "90 days"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "90 días"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "90 jours"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "90 giorni"
+          }
+        }
+      }
+    },
     "Abbrechen": {
       "localizations": {
         "en": {
@@ -224,6 +308,34 @@
           "stringUnit": {
             "state": "translated",
             "value": "Attuale"
+          }
+        }
+      }
+    },
+    "Alles": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todo"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tout"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tutto"
           }
         }
       }
@@ -3290,6 +3402,35 @@
         }
       }
     },
+    "Trend": {},
+    "Trend: %@/Woche": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trend: %@/week"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendencia: %@/semana"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendance : %@/semaine"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendenza: %@/settimana"
+          }
+        }
+      }
+    },
     "Übergewicht": {
       "localizations": {
         "en": {
@@ -3854,142 +3995,30 @@
       }
     },
     "Ω": {},
-    "Trend: %@/Woche": {
+    "Trend (geglättet)": {
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Trend: %@/week"
+            "value": "Trend (smoothed)"
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tendencia: %@/semana"
+            "value": "Tendencia (suavizada)"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tendance : %@/semaine"
+            "value": "Tendance (lissée)"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tendenza: %@/settimana"
-          }
-        }
-      }
-    },
-    "30 Tage": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "30 days"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "30 días"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "30 jours"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "30 giorni"
-          }
-        }
-      }
-    },
-    "90 Tage": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "90 days"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "90 días"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "90 jours"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "90 giorni"
-          }
-        }
-      }
-    },
-    "1 Jahr": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "1 year"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "1 año"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "1 an"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "1 anno"
-          }
-        }
-      }
-    },
-    "Alles": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "All"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Todo"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tout"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tutto"
+            "value": "Tendenza (livellata)"
           }
         }
       }
