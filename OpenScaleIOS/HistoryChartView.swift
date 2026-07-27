@@ -56,7 +56,7 @@ struct HistoryChartView: View {
     }
 
     @State private var metric: Metric = .weight
-    @State private var period: Period = .d90
+    @State private var period: Period = .d30
 
     private struct ChartPoint: Identifiable {
         let id = UUID()
@@ -160,22 +160,28 @@ struct HistoryChartView: View {
                     .font(.footnote).foregroundStyle(.secondary)
                     .frame(maxWidth: .infinity, minHeight: 80)
             } else {
+                let measLabel = String(localized: "Messungen")
+                let trendLabel = String(localized: "Trend (geglättet)")
                 Chart {
                     ForEach(pts) { pt in
                         PointMark(x: .value("Datum", pt.date),
                                   y: .value("Wert", pt.value))
-                            .foregroundStyle(.secondary.opacity(0.5))
-                            .symbol(.circle)
+                            .foregroundStyle(by: .value("Serie", measLabel))
                             .symbolSize(24)
                     }
                     ForEach(trendPoints) { pt in
                         LineMark(x: .value("Datum", pt.date),
-                                 y: .value("Trend", pt.value))
-                            .foregroundStyle(Color.accentColor)
+                                 y: .value("Wert", pt.value))
+                            .foregroundStyle(by: .value("Serie", trendLabel))
                             .interpolationMethod(.catmullRom)
                             .lineStyle(StrokeStyle(lineWidth: 2.5))
                     }
                 }
+                .chartForegroundStyleScale([
+                    measLabel: Color.secondary.opacity(0.5),
+                    trendLabel: Color.accentColor,
+                ])
+                .chartLegend(position: .bottom)
                 .chartXAxis {
                     AxisMarks(values: .automatic(desiredCount: 4)) { _ in
                         AxisGridLine()
@@ -184,21 +190,7 @@ struct HistoryChartView: View {
                     }
                 }
                 .chartYScale(domain: .automatic(includesZero: false))
-                .frame(height: 200)
-
-                HStack(spacing: 14) {
-                    HStack(spacing: 5) {
-                        Circle().fill(Color.secondary.opacity(0.5))
-                            .frame(width: 7, height: 7)
-                        Text("Messungen")
-                    }
-                    HStack(spacing: 5) {
-                        RoundedRectangle(cornerRadius: 1).fill(Color.accentColor)
-                            .frame(width: 16, height: 3)
-                        Text("Trend (geglättet)")
-                    }
-                }
-                .font(.caption2).foregroundStyle(.secondary)
+                .frame(height: 210)
 
                 if let r = weeklyRate {
                     let arrow = r > 0.005 ? "arrow.up.right"
