@@ -43,6 +43,16 @@ See **[SUPPORTED_SCALES.md](SUPPORTED_SCALES.md)** for the live list and status.
 **not yet verified on real hardware**. Helping is easy — see
 **[CONTRIBUTING.md](CONTRIBUTING.md)** ("Test or add your scale").
 
+## Install on iPhone (SideStore / AltStore)
+
+Add this **source URL** in SideStore or AltStore — then OpenTara installs and **updates automatically** (no manual `.ipa` transfer):
+
+```
+https://raw.githubusercontent.com/etlami/opentara/main/source.json
+```
+
+SideStore signs the app with *your own* Apple ID, so it doesn't expire every 7 days. Alternatively grab the `.ipa` from [Releases](https://github.com/etlami/opentara/releases) or build from source.
+
 ## Requirements
 
 - iPhone (a **real device** — the Simulator has no Bluetooth)
