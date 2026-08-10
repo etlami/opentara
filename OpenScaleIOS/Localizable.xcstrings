@@ -4050,6 +4050,62 @@
           }
         }
       }
+    },
+    "Ziel gesetzt am": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Goal set on"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Objetivo fijado el"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Objectif défini le"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obiettivo impostato il"
+          }
+        }
+      }
+    },
+    "Der Fortschritt wird ab deinem Gewicht an diesem Tag berechnet.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Progress is calculated from your weight on that day."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El progreso se calcula a partir de tu peso ese día."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La progression est calculée à partir de votre poids ce jour-là."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il progresso è calcolato dal tuo peso in quel giorno."
+          }
+        }
+      }
     }
   },
   "version": "1.0"

@@ -54,13 +54,11 @@ final class AppStore: ObservableObject {
 
     func addOrUpdate(_ profile: UserProfile) {
         var p = profile
-        let old = profiles.first(where: { $0.id == p.id })
 
-        if let target = p.targetWeightKg {
-            // Ziel neu gesetzt oder geändert -> Datum der Zielsetzung merken.
-            if old?.targetWeightKg != target || p.goalSetDate == nil {
-                p.goalSetDate = Date()
-            }
+        // Das Zielsetzungs-Datum wird im Profil-Editor gewählt; hier nur ein
+        // Fallback (heute), falls ein Ziel ohne Datum reinkommt.
+        if p.targetWeightKg != nil {
+            if p.goalSetDate == nil { p.goalSetDate = Date() }
         } else {
             p.goalSetDate = nil
         }

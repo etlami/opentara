@@ -9,6 +9,7 @@ struct ProfileEditView: View {
 
     @State private var draft: UserProfile
     @State private var targetText: String
+    @State private var goalDate: Date
     let unit: WeightUnit
     let onSave: (UserProfile) -> Void
 
@@ -17,6 +18,7 @@ struct ProfileEditView: View {
                                        birthDate: defaultBirthDate(), sex: .male)
         _draft = State(initialValue: p)
         _targetText = State(initialValue: p.targetWeightKg.map { String(format: "%g", unit.fromKg($0)) } ?? "")
+        _goalDate = State(initialValue: p.goalSetDate ?? Date())
         self.unit = unit
         self.onSave = onSave
     }
@@ -59,6 +61,12 @@ struct ProfileEditView: View {
                             .multilineTextAlignment(.trailing)
                         Text(unit.short).foregroundStyle(.secondary)
                     }
+                    if num(targetText) != nil {
+                        DatePicker("Ziel gesetzt am", selection: $goalDate,
+                                   in: ...Date(), displayedComponents: .date)
+                        Text("Der Fortschritt wird ab deinem Gewicht an diesem Tag berechnet.")
+                            .font(.footnote).foregroundStyle(.secondary)
+                    }
                 }
 
                 Section {
@@ -74,7 +82,13 @@ struct ProfileEditView: View {
                 ToolbarItem(placement: .confirmationAction) {
                     Button("Sichern") {
                         var d = draft
-                        d.targetWeightKg = num(targetText).map { unit.toKg($0) }
+                        if let t = num(targetText) {
+                            d.targetWeightKg = unit.toKg(t)
+                            d.goalSetDate = goalDate
+                        } else {
+                            d.targetWeightKg = nil
+                            d.goalSetDate = nil
+                        }
                         onSave(d)
                         dismiss()
                     }
