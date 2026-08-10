@@ -118,7 +118,7 @@ struct SettingsView: View {
                           contentType: .commaSeparatedText,
                           defaultFilename: exportFilename()) { _ in }
             .fileImporter(isPresented: $importing,
-                          allowedContentTypes: [.commaSeparatedText, .plainText]) { result in
+                          allowedContentTypes: [.commaSeparatedText, .plainText, .text, .data]) { result in
                 handleImport(result)
             }
             .alert("Import", isPresented: Binding(
