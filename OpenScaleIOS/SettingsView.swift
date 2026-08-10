@@ -4,6 +4,7 @@
 
 import SwiftUI
 import UniformTypeIdentifiers
+import UIKit
 
 struct SettingsView: View {
     @EnvironmentObject var store: AppStore
@@ -76,6 +77,11 @@ struct SettingsView: View {
                         Label("Importieren (CSV)", systemImage: "square.and.arrow.down")
                     }
                     Button {
+                        importFromClipboard()
+                    } label: {
+                        Label("Aus Zwischenablage importieren", systemImage: "doc.on.clipboard")
+                    }
+                    Button {
                         makePDF()
                     } label: {
                         Label("PDF-Bericht (für Arzt)", systemImage: "doc.richtext")
@@ -118,7 +124,7 @@ struct SettingsView: View {
                           contentType: .commaSeparatedText,
                           defaultFilename: exportFilename()) { _ in }
             .fileImporter(isPresented: $importing,
-                          allowedContentTypes: [.commaSeparatedText, .plainText, .text, .data]) { result in
+                          allowedContentTypes: [.item]) { result in
                 handleImport(result)
             }
             .alert("Import", isPresented: Binding(
@@ -205,5 +211,18 @@ struct SettingsView: View {
         importMessage = added > 0
             ? "\(added) Messung(en) importiert."
             : "Keine neuen Messungen (Datei leer oder alles schon vorhanden)."
+    }
+
+    private func importFromClipboard() {
+        guard let id = store.activeProfileID else { return }
+        guard let text = UIPasteboard.general.string, !text.isEmpty else {
+            importMessage = "Zwischenablage ist leer oder enthält keinen Text."
+            return
+        }
+        let parsed = CSVFormatter.parse(text)
+        let added = store.importMeasurements(parsed, for: id)
+        importMessage = added > 0
+            ? "\(added) Messung(en) importiert."
+            : "Keine neuen Messungen im Text der Zwischenablage gefunden."
     }
 }

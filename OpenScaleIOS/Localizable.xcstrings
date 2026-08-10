@@ -1,4058 +1,4056 @@
 {
-  "sourceLanguage" : "de",
-  "strings" : {
-    "" : {
-
-    },
-    "–" : {
-
-    },
-    "%lld %%" : {
-
-    },
-    "→ zugeordnet: %@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "→ assigned to: %@"
+  "sourceLanguage": "de",
+  "strings": {
+    "": {},
+    "–": {},
+    "%lld %%": {},
+    "→ zugeordnet: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "→ assigned to: %@"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "→ asignado a: %@"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "→ asignado a: %@"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "→ attribué à : %@"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "→ attribué à : %@"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "→ assegnato a: %@"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "→ assegnato a: %@"
           }
         }
       }
     },
-    "1 Jahr" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "1 year"
+    "1 Jahr": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 year"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "1 año"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 año"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "1 an"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 an"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "1 anno"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 anno"
           }
         }
       }
     },
-    "30 Tage" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "30 days"
+    "30 Tage": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "30 days"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "30 días"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "30 días"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "30 jours"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "30 jours"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "30 giorni"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "30 giorni"
           }
         }
       }
     },
-    "90 Tage" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "90 days"
+    "90 Tage": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "90 days"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "90 días"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "90 días"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "90 jours"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "90 jours"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "90 giorni"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "90 giorni"
           }
         }
       }
     },
-    "Abbrechen" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cancel"
+    "Abbrechen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cancelar"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancelar"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Annuler"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annuler"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Annulla"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annulla"
           }
         }
       }
     },
-    "abnehmend" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "decreasing"
+    "abnehmend": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "decreasing"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "bajando"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "bajando"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "en baisse"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "en baisse"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "in calo"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "in calo"
           }
         }
       }
     },
-    "Adipös" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Obese"
+    "Adipös": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obese"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Obeso"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obeso"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Obèse"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obèse"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Obeso"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obeso"
           }
         }
       }
     },
-    "Adipositas Grad I" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Obesity class I"
+    "Adipositas Grad I": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obesity class I"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Obesidad grado I"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obesidad grado I"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Obésité de classe I"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obésité de classe I"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Obesità di grado I"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obesità di grado I"
           }
         }
       }
     },
-    "Adipositas Grad II" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Obesity class II"
+    "Adipositas Grad II": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obesity class II"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Obesidad grado II"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obesidad grado II"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Obésité de classe II"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obésité de classe II"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Obesità di grado II"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obesità di grado II"
           }
         }
       }
     },
-    "Adipositas Grad III" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Obesity class III"
+    "Adipositas Grad III": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obesity class III"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Obesidad grado III"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obesidad grado III"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Obésité de classe III"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obésité de classe III"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Obesità di grado III"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obesità di grado III"
           }
         }
       }
     },
-    "Aktuell" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Current"
+    "Aktuell": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Current"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Actual"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Actual"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Actuel"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Actuel"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Attuale"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Attuale"
           }
         }
       }
     },
-    "Alles" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "All"
+    "Alles": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Todo"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todo"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tout"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tout"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tutto"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tutto"
           }
         }
       }
     },
-    "Als Messung speichern" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Save as measurement"
+    "Als Messung speichern": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save as measurement"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Guardar como medición"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardar como medición"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Enregistrer comme mesure"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enregistrer comme mesure"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Salva come misurazione"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salva come misurazione"
           }
         }
       }
     },
-    "Alter: %lld Jahre" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Age: %lld years"
+    "Alter: %lld Jahre": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Age: %lld years"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Edad: %lld años"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edad: %lld años"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Âge : %lld ans"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Âge : %lld ans"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Età: %lld anni"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Età: %lld anni"
           }
         }
       }
     },
-    "Angezeigte Werte" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Displayed values"
+    "Angezeigte Werte": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Displayed values"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Valores mostrados"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Valores mostrados"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Valeurs affichées"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Valeurs affichées"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Valori mostrati"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Valori mostrati"
           }
         }
       }
     },
-    "Assistiert wiegen" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Assisted weighing"
+    "Assistiert wiegen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Assisted weighing"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pesaje asistido"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pesaje asistido"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pesée assistée"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pesée assistée"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pesatura assistita"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pesatura assistita"
           }
         }
       }
     },
-    "Assistiert wiegen (Baby/Tier)" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Assisted weighing (baby/pet)"
+    "Assistiert wiegen (Baby/Tier)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Assisted weighing (baby/pet)"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pesaje asistido (bebé/mascota)"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pesaje asistido (bebé/mascota)"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pesée assistée (bébé/animal)"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pesée assistée (bébé/animal)"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pesatura assistita (neonato/animale)"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pesatura assistita (neonato/animale)"
           }
         }
       }
     },
-    "Ausgewogen" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Balanced"
+    "Ausgewogen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Balanced"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Equilibrado"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Equilibrado"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Équilibré"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Équilibré"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Equilibrato"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Equilibrato"
           }
         }
       }
     },
-    "Ausgewogen-muskulös" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Balanced-muscular"
+    "Ausgewogen-muskulös": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Balanced-muscular"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Equilibrado-musculoso"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Equilibrado-musculoso"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Équilibré-musclé"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Équilibré-musclé"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Equilibrato-muscoloso"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Equilibrato-muscoloso"
           }
         }
       }
     },
-    "Automatik" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Automation"
+    "Automatik": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automation"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Automatización"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatización"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Automatisation"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatisation"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Automazione"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automazione"
           }
         }
       }
     },
-    "Automatische Personen-Zuordnung" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Automatic profile assignment"
+    "Automatische Personen-Zuordnung": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatic profile assignment"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Asignación automática de perfil"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Asignación automática de perfil"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Attribution automatique du profil"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Attribution automatique du profil"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Assegnazione automatica del profilo"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Assegnazione automatica del profilo"
           }
         }
       }
     },
-    "Baby/Tier wiegt" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Baby/pet weighs"
+    "Baby/Tier wiegt": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Baby/pet weighs"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "El bebé/la mascota pesa"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El bebé/la mascota pesa"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Le bébé/l'animal pèse"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le bébé/l'animal pèse"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Il neonato/l'animale pesa"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il neonato/l'animale pesa"
           }
         }
       }
     },
-    "Benachrichtigungen aus" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Notifications off"
+    "Benachrichtigungen aus": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notifications off"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Notificaciones desactivadas"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notificaciones desactivadas"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Notifications désactivées"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notifications désactivées"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Notifiche disattivate"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notifiche disattivate"
           }
         }
       }
     },
-    "Bizeps" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Biceps"
+    "Bizeps": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Biceps"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bíceps"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bíceps"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Biceps"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Biceps"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bicipite"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bicipite"
           }
         }
       }
     },
-    "Bluetooth bereit – auf Suchen tippen" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bluetooth ready – tap Search"
+    "Bluetooth bereit – auf Suchen tippen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bluetooth ready – tap Search"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bluetooth listo – toca Buscar"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bluetooth listo – toca Buscar"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bluetooth prêt – touchez Rechercher"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bluetooth prêt – touchez Rechercher"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bluetooth pronto – tocca Cerca"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bluetooth pronto – tocca Cerca"
           }
         }
       }
     },
-    "Bluetooth ist ausgeschaltet" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bluetooth is off"
+    "Bluetooth ist ausgeschaltet": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bluetooth is off"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bluetooth está apagado"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bluetooth está apagado"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Le Bluetooth est désactivé"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le Bluetooth est désactivé"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Il Bluetooth è disattivato"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il Bluetooth è disattivato"
           }
         }
       }
     },
-    "Bluetooth nicht bereit" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bluetooth not ready"
+    "Bluetooth nicht bereit": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bluetooth not ready"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bluetooth no listo"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bluetooth no listo"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bluetooth non prêt"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bluetooth non prêt"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bluetooth non pronto"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bluetooth non pronto"
           }
         }
       }
     },
-    "Bluetooth nicht verfügbar" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bluetooth not available"
+    "Bluetooth nicht verfügbar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bluetooth not available"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bluetooth no disponible"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bluetooth no disponible"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bluetooth indisponible"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bluetooth indisponible"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bluetooth non disponibile"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bluetooth non disponibile"
           }
         }
       }
     },
-    "Bluetooth wird nicht unterstützt" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bluetooth not supported"
+    "Bluetooth wird nicht unterstützt": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bluetooth not supported"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bluetooth no compatible"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bluetooth no compatible"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bluetooth non pris en charge"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bluetooth non pris en charge"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bluetooth non supportato"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bluetooth non supportato"
           }
         }
       }
     },
-    "Bluetooth-Berechtigung fehlt (Einstellungen)" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bluetooth permission missing (Settings)"
+    "Bluetooth-Berechtigung fehlt (Einstellungen)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bluetooth permission missing (Settings)"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Falta permiso de Bluetooth (Ajustes)"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Falta permiso de Bluetooth (Ajustes)"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Autorisation Bluetooth manquante (Réglages)"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Autorisation Bluetooth manquante (Réglages)"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Autorizzazione Bluetooth mancante (Impostazioni)"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Autorizzazione Bluetooth mancante (Impostazioni)"
           }
         }
       }
     },
-    "BMI" : {
-
-    },
-    "Body Score" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Body Score"
+    "BMI": {},
+    "Body Score": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Body Score"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Puntuación corporal"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Puntuación corporal"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Score corporel"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Score corporel"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Punteggio corporeo"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Punteggio corporeo"
           }
         }
       }
     },
-    "Brust" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Chest"
+    "Brust": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chest"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pecho"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pecho"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Poitrine"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poitrine"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Petto"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Petto"
           }
         }
       }
-    },
-    "Buy me a coffee ☕️" : {
-
     },
-    "cm" : {
-
-    },
-    "Das Gewicht zusammen muss größer sein als allein." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "The combined weight must be greater than alone."
+    "Buy me a coffee ☕️": {},
+    "cm": {},
+    "Das Gewicht zusammen muss größer sein als allein.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The combined weight must be greater than alone."
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "El peso juntos debe ser mayor que solo."
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El peso juntos debe ser mayor que solo."
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Le poids ensemble doit être supérieur à celui seul."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le poids ensemble doit être supérieur à celui seul."
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Il peso insieme deve essere maggiore di quello da solo."
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il peso insieme deve essere maggiore di quello da solo."
           }
         }
       }
     },
-    "Daten (aktuelles Profil)" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Data (current profile)"
+    "Daten (aktuelles Profil)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Data (current profile)"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Datos (perfil actual)"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Datos (perfil actual)"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Données (profil actuel)"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Données (profil actuel)"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dati (profilo corrente)"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dati (profilo corrente)"
           }
         }
       }
     },
-    "Datum" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Date"
+    "Datum": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Date"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Fecha"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fecha"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Date"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Date"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Data"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Data"
           }
         }
       }
     },
-    "Diagramm" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Chart"
+    "Diagramm": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chart"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Gráfico"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gráfico"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Graphique"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Graphique"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Grafico"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grafico"
           }
         }
       }
     },
-    "Durchschnitt" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Average"
+    "Durchschnitt": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Average"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Promedio"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Promedio"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Moyenne"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Moyenne"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Media"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Media"
           }
         }
       }
     },
-    "Einheit" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Unit"
+    "Einheit": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unit"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Unidad"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unidad"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Unité"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unité"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Unità"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unità"
           }
         }
       }
     },
-    "Einstellungen" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Settings"
+    "Einstellungen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ajustes"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajustes"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Réglages"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réglages"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Impostazioni"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impostazioni"
           }
         }
       }
     },
-    "Ergebnis" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Result"
+    "Ergebnis": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Result"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Resultado"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resultado"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Résultat"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Résultat"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Risultato"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Risultato"
           }
         }
       }
     },
-    "Erinnerung" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reminder"
+    "Erinnerung": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reminder"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Recordatorio"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recordatorio"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Rappel"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rappel"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Promemoria"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Promemoria"
           }
         }
       }
     },
-    "Erinnerungen sind für OpenTara deaktiviert. Bitte in den iOS-Einstellungen unter Mitteilungen erlauben." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Notifications are disabled for OpenTara. Please enable them in iOS Settings under Notifications."
+    "Erinnerungen sind für OpenTara deaktiviert. Bitte in den iOS-Einstellungen unter Mitteilungen erlauben.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notifications are disabled for OpenTara. Please enable them in iOS Settings under Notifications."
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Las notificaciones están desactivadas para OpenTara. Actívalas en Ajustes de iOS en Notificaciones."
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Las notificaciones están desactivadas para OpenTara. Actívalas en Ajustes de iOS en Notificaciones."
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Les notifications sont désactivées pour OpenTara. Activez-les dans Réglages iOS sous Notifications."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les notifications sont désactivées pour OpenTara. Activez-les dans Réglages iOS sous Notifications."
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Le notifiche sono disattivate per OpenTara. Attivale in Impostazioni iOS in Notifiche."
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le notifiche sono disattivate per OpenTara. Attivale in Impostazioni iOS in Notifiche."
           }
         }
       }
     },
-    "experimentell" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "experimental"
+    "experimentell": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "experimental"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "experimental"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "experimental"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "expérimental"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "expérimental"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "sperimentale"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sperimentale"
           }
         }
       }
     },
-    "Exportieren (CSV)" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Export (CSV)"
+    "Exportieren (CSV)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Export (CSV)"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Exportar (CSV)"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exportar (CSV)"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Exporter (CSV)"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exporter (CSV)"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Esporta (CSV)"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esporta (CSV)"
           }
         }
       }
     },
-    "Farben = grobe Orientierung, keine medizinische Bewertung." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Colors = rough guidance, not a medical assessment."
+    "Farben = grobe Orientierung, keine medizinische Bewertung.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Colors = rough guidance, not a medical assessment."
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Colores = orientación aproximada, no una evaluación médica."
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Colores = orientación aproximada, no una evaluación médica."
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Couleurs = indication approximative, pas une évaluation médicale."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couleurs = indication approximative, pas une évaluation médicale."
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Colori = orientamento approssimativo, non una valutazione medica."
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Colori = orientamento approssimativo, non una valutazione medica."
           }
         }
       }
     },
-    "Fertig" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Done"
+    "Fertig": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Done"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Listo"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Listo"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Terminé"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terminé"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Fine"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fine"
           }
         }
       }
     },
-    "Fettfreie Masse" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Lean body mass"
+    "Fettfreie Masse": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lean body mass"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Masa magra"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Masa magra"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Masse maigre"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Masse maigre"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Massa magra"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Massa magra"
           }
         }
       }
     },
-    "Für ein eigenes Baby-/Tier-Profil kannst du oben rechts über das Profil-Symbol eine Person anlegen, z. B. Baby oder Hund." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "For a dedicated baby/pet profile, create a person via the profile icon at the top right, e.g. Baby or Dog."
+    "Für ein eigenes Baby-/Tier-Profil kannst du oben rechts über das Profil-Symbol eine Person anlegen, z. B. Baby oder Hund.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "For a dedicated baby/pet profile, create a person via the profile icon at the top right, e.g. Baby or Dog."
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Para un perfil de bebé/mascota, crea una persona con el icono de perfil arriba a la derecha, p. ej. Bebé o Perro."
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Para un perfil de bebé/mascota, crea una persona con el icono de perfil arriba a la derecha, p. ej. Bebé o Perro."
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pour un profil bébé/animal dédié, créez une personne via l'icône de profil en haut à droite, p. ex. Bébé ou Chien."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pour un profil bébé/animal dédié, créez une personne via l'icône de profil en haut à droite, p. ex. Bébé ou Chien."
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Per un profilo dedicato a neonato/animale, crea una persona tramite l'icona del profilo in alto a destra, es. Neonato o Cane."
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Per un profilo dedicato a neonato/animale, crea una persona tramite l'icona del profilo in alto a destra, es. Neonato o Cane."
           }
         }
       }
     },
-    "Für eine Prognose sind mehrere Messungen über mindestens einen Tag nötig." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "A projection needs several measurements spanning at least one day."
+    "Für eine Prognose sind mehrere Messungen über mindestens einen Tag nötig.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A projection needs several measurements spanning at least one day."
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Una previsión necesita varias mediciones a lo largo de al menos un día."
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Una previsión necesita varias mediciones a lo largo de al menos un día."
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Une prévision nécessite plusieurs mesures sur au moins une journée."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Une prévision nécessite plusieurs mesures sur au moins une journée."
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Una previsione richiede più misurazioni nell'arco di almeno un giorno."
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Una previsione richiede più misurazioni nell'arco di almeno un giorno."
           }
         }
       }
     },
-    "Für Fett/Wasser/Muskel bitte **barfuß** messen – dann kommt die Impedanz mit." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "For fat/water/muscle, measure **barefoot** – then impedance is included."
+    "Für Fett/Wasser/Muskel bitte **barfuß** messen – dann kommt die Impedanz mit.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "For fat/water/muscle, measure **barefoot** – then impedance is included."
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Para grasa/agua/músculo, mide **descalzo** – así se incluye la impedancia."
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Para grasa/agua/músculo, mide **descalzo** – así se incluye la impedancia."
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pour la graisse/l'eau/le muscle, mesurez **pieds nus** – l'impédance est alors incluse."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pour la graisse/l'eau/le muscle, mesurez **pieds nus** – l'impédance est alors incluse."
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Per grasso/acqua/muscolo, misura **a piedi nudi** – così è inclusa l'impedenza."
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Per grasso/acqua/muscolo, misura **a piedi nudi** – così è inclusa l'impedenza."
           }
         }
       }
     },
-    "Geburtsdatum" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Date of birth"
+    "Geburtsdatum": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Date of birth"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Fecha de nacimiento"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fecha de nacimiento"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Date de naissance"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Date de naissance"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Data di nascita"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Data di nascita"
           }
         }
       }
     },
-    "Gemessen: %@" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Measured: %@"
+    "Gemessen: %@": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Measured: %@"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Medido: %@"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medido: %@"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mesuré : %@"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mesuré : %@"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Misurato: %@"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Misurato: %@"
           }
         }
       }
     },
-    "Geschlecht" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sex"
+    "Geschlecht": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sex"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sexo"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sexo"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sexe"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sexe"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sesso"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sesso"
           }
         }
       }
     },
-    "getestet" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "tested"
+    "getestet": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tested"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "probado"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "probado"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "testé"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "testé"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "testato"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "testato"
           }
         }
       }
     },
-    "Gewicht" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Weight"
+    "Gewicht": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weight"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Peso"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Peso"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Poids"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poids"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Peso"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Peso"
           }
         }
       }
     },
-    "Gewicht allein" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Weight alone"
+    "Gewicht allein": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weight alone"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Peso solo"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Peso solo"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Poids seul"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poids seul"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Peso da solo"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Peso da solo"
           }
         }
       }
     },
-    "Gewicht zusammen" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Weight together"
+    "Gewicht zusammen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weight together"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Peso juntos"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Peso juntos"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Poids ensemble"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poids ensemble"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Peso insieme"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Peso insieme"
           }
         }
       }
     },
-    "Gewicht/BMI werden immer angezeigt. Fett, Wasser & Co. nur, wenn barfuß (Impedanz) gemessen wurde. Der CSV-Export speichert Gewicht immer in kg. Experimentell bedeutet: Treiber ist portiert, aber noch nicht mit echter Hardware bestätigt." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Weight/BMI are always shown. Fat, water etc. only when measured barefoot (impedance). CSV export always stores weight in kg. Experimental means: the driver is ported but not yet confirmed on real hardware."
+    "Gewicht/BMI werden immer angezeigt. Fett, Wasser & Co. nur, wenn barfuß (Impedanz) gemessen wurde. Der CSV-Export speichert Gewicht immer in kg. Experimentell bedeutet: Treiber ist portiert, aber noch nicht mit echter Hardware bestätigt.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weight/BMI are always shown. Fat, water etc. only when measured barefoot (impedance). CSV export always stores weight in kg. Experimental means: the driver is ported but not yet confirmed on real hardware."
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "El peso/IMC siempre se muestran. Grasa, agua, etc. solo al medir descalzo (impedancia). La exportación CSV siempre guarda el peso en kg. Experimental significa: el controlador está portado pero aún no confirmado en hardware real."
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El peso/IMC siempre se muestran. Grasa, agua, etc. solo al medir descalzo (impedancia). La exportación CSV siempre guarda el peso en kg. Experimental significa: el controlador está portado pero aún no confirmado en hardware real."
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Le poids/l'IMC sont toujours affichés. Graisse, eau, etc. seulement en mesure pieds nus (impédance). L'export CSV enregistre toujours le poids en kg. Expérimental signifie : le pilote est porté mais pas encore confirmé sur du matériel réel."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le poids/l'IMC sont toujours affichés. Graisse, eau, etc. seulement en mesure pieds nus (impédance). L'export CSV enregistre toujours le poids en kg. Expérimental signifie : le pilote est porté mais pas encore confirmé sur du matériel réel."
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Peso/BMI sono sempre mostrati. Grasso, acqua ecc. solo con misurazione a piedi nudi (impedenza). L'esportazione CSV salva sempre il peso in kg. Sperimentale significa: il driver è portato ma non ancora confermato su hardware reale."
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Peso/BMI sono sempre mostrati. Grasso, acqua ecc. solo con misurazione a piedi nudi (impedenza). L'esportazione CSV salva sempre il peso in kg. Sperimentale significa: il driver è portato ma non ancora confermato su hardware reale."
           }
         }
       }
     },
-    "Größe" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Height"
+    "Größe": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Height"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Altura"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Altura"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Taille"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Taille"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Altezza"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Altezza"
           }
         }
       }
     },
-    "Grundumsatz" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Basal metabolism"
+    "Grundumsatz": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Basal metabolism"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Metabolismo basal"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Metabolismo basal"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Métabolisme de base"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Métabolisme de base"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Metabolismo basale"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Metabolismo basale"
           }
         }
       }
     },
-    "Hüfte" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Hip"
+    "Hüfte": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hip"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cadera"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cadera"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tour de hanches"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tour de hanches"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Fianchi"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fianchi"
           }
         }
       }
     },
-    "Ideales Gewicht" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ideal weight"
+    "Ideales Gewicht": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ideal weight"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Peso ideal"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Peso ideal"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Poids idéal"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poids idéal"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Peso ideale"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Peso ideale"
           }
         }
       }
     },
-    "Impedanz" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Impedance"
+    "Impedanz": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impedance"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Impedancia"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impedancia"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Impédance"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impédance"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Impedenza"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impedenza"
           }
         }
       }
     },
-    "Impedanz nur ausfüllen, wenn bekannt – sie wird für Fett/Wasser/Muskel gebraucht. Ohne Impedanz gibt es nur Gewicht + BMI." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Only fill in impedance if known – it's needed for fat/water/muscle. Without it you only get weight + BMI."
+    "Impedanz nur ausfüllen, wenn bekannt – sie wird für Fett/Wasser/Muskel gebraucht. Ohne Impedanz gibt es nur Gewicht + BMI.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Only fill in impedance if known – it's needed for fat/water/muscle. Without it you only get weight + BMI."
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Rellena la impedancia solo si la conoces – se necesita para grasa/agua/músculo. Sin ella solo hay peso + IMC."
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rellena la impedancia solo si la conoces – se necesita para grasa/agua/músculo. Sin ella solo hay peso + IMC."
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ne renseignez l'impédance que si elle est connue – elle sert pour la graisse/l'eau/le muscle. Sans elle, seuls le poids et l'IMC sont calculés."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ne renseignez l'impédance que si elle est connue – elle sert pour la graisse/l'eau/le muscle. Sans elle, seuls le poids et l'IMC sont calculés."
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Inserisci l'impedenza solo se nota – serve per grasso/acqua/muscolo. Senza, hai solo peso + BMI."
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inserisci l'impedenza solo se nota – serve per grasso/acqua/muscolo. Senza, hai solo peso + BMI."
           }
         }
       }
     },
-    "Import" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Import"
+    "Import": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Import"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Importación"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Importación"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Importation"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Importation"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Importazione"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Importazione"
           }
         }
       }
     },
-    "Importieren (CSV)" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Import (CSV)"
+    "Importieren (CSV)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Import (CSV)"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Importar (CSV)"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Importar (CSV)"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Importer (CSV)"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Importer (CSV)"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Importa (CSV)"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Importa (CSV)"
           }
         }
       }
     },
-    "In Profil" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "To profile"
+    "In Profil": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To profile"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "En perfil"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En perfil"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Vers le profil"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vers le profil"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nel profilo"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nel profilo"
           }
         }
       }
     },
-    "Knochenmasse" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bone mass"
+    "Knochenmasse": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bone mass"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Masa ósea"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Masa ósea"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Masse osseuse"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Masse osseuse"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Massa ossea"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Massa ossea"
           }
         }
       }
     },
-    "Kommentar" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Comment"
+    "Kommentar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comment"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Comentario"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comentario"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Commentaire"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commentaire"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Commento"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commento"
           }
         }
       }
     },
-    "Körperfett" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Body fat"
+    "Körperfett": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Body fat"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Grasa corporal"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grasa corporal"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Masse grasse"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Masse grasse"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Grasso corporeo"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grasso corporeo"
           }
         }
       }
     },
-    "Körpertyp" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Body type"
+    "Körpertyp": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Body type"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tipo de cuerpo"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tipo de cuerpo"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Type corporel"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Type corporel"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tipo corporeo"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tipo corporeo"
           }
         }
       }
     },
-    "Körperwerte" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Body metrics"
+    "Körperwerte": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Body metrics"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Valores corporales"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Valores corporales"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Données corporelles"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Données corporelles"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Valori corporei"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Valori corporei"
           }
         }
       }
     },
-    "Kräftig" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Stocky"
+    "Kräftig": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stocky"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Corpulento"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Corpulento"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Robuste"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Robuste"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Robusto"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Robusto"
           }
         }
       }
     },
-    "Männlich" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Male"
+    "Männlich": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Male"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Masculino"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Masculino"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Homme"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Homme"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Maschio"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Maschio"
           }
         }
       }
     },
-    "Manuelle Messung" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Manual entry"
+    "Manuelle Messung": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manual entry"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Entrada manual"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entrada manual"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Saisie manuelle"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saisie manuelle"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Inserimento manuale"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inserimento manuale"
           }
         }
       }
     },
-    "Maße & Notiz" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Measurements & note"
+    "Maße & Notiz": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Measurements & note"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Medidas y nota"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medidas y nota"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mesures et note"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mesures et note"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Misure e nota"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Misure e nota"
           }
         }
       }
     },
-    "Maximum" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Maximum"
+    "Maximum": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Maximum"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Máximo"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Máximo"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Maximum"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Maximum"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Massimo"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Massimo"
           }
         }
       }
     },
-    "Messung" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Measurement"
+    "Messung": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Measurement"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Medición"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medición"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mesure"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mesure"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Misurazione"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Misurazione"
           }
         }
       }
     },
-    "Messung bearbeiten" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Edit measurement"
+    "Messung bearbeiten": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit measurement"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Editar medición"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Editar medición"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Modifier la mesure"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modifier la mesure"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Modifica misurazione"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modifica misurazione"
           }
         }
       }
     },
-    "Messung löschen" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Delete measurement"
+    "Messung löschen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete measurement"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Eliminar medición"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eliminar medición"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Supprimer la mesure"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Supprimer la mesure"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Elimina misurazione"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elimina misurazione"
           }
         }
       }
     },
-    "Messungen" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Measurements"
+    "Messungen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Measurements"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mediciones"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mediciones"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mesures"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mesures"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Misurazioni"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Misurazioni"
           }
         }
       }
     },
-    "Metabol. Alter" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Metabolic age"
+    "Metabol. Alter": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Metabolic age"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Edad metabólica"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edad metabólica"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Âge métabolique"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Âge métabolique"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Età metabolica"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Età metabolica"
           }
         }
       }
     },
-    "Mindestens zwei Barfuß-Messungen (mit Impedanz) nötig." : {
-
-    },
-    "Mindestens zwei Messungen nötig für ein Diagramm." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "At least two measurements are needed for a chart."
+    "Mindestens zwei Barfuß-Messungen (mit Impedanz) nötig.": {},
+    "Mindestens zwei Messungen nötig für ein Diagramm.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "At least two measurements are needed for a chart."
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Se necesitan al menos dos mediciones para un gráfico."
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se necesitan al menos dos mediciones para un gráfico."
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Au moins deux mesures sont nécessaires pour un graphique."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Au moins deux mesures sont nécessaires pour un graphique."
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Servono almeno due misurazioni per un grafico."
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Servono almeno due misurazioni per un grafico."
           }
         }
       }
     },
-    "Minimum" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Minimum"
+    "Minimum": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Minimum"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mínimo"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mínimo"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Minimum"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Minimum"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Minimo"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Minimo"
           }
         }
       }
     },
-    "Muskelmasse" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Muscle mass"
+    "Muskelmasse": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Muscle mass"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Masa muscular"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Masa muscular"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Masse musculaire"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Masse musculaire"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Massa muscolare"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Massa muscolare"
           }
         }
       }
     },
-    "Nacken" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Neck"
+    "Nacken": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neck"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cuello"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cuello"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cou"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cou"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Collo"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Collo"
           }
         }
       }
     },
-    "Name" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Name"
+    "Name": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Name"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nombre"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nombre"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nom"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nom"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nome"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nome"
           }
         }
       }
     },
-    "Neue Messung" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "New measurement"
+    "Neue Messung": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New measurement"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nueva medición"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nueva medición"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nouvelle mesure"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nouvelle mesure"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nuova misurazione"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nuova misurazione"
           }
         }
       }
     },
-    "Noch abnehmen" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Still to lose"
+    "Noch abnehmen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Still to lose"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Por perder"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Por perder"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reste à perdre"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reste à perdre"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ancora da perdere"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ancora da perdere"
           }
         }
       }
     },
-    "Noch keine gespeicherten Messungen." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No saved measurements yet."
+    "Noch keine gespeicherten Messungen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No saved measurements yet."
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aún no hay mediciones guardadas."
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aún no hay mediciones guardadas."
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aucune mesure enregistrée."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucune mesure enregistrée."
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nessuna misurazione salvata."
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessuna misurazione salvata."
           }
         }
       }
     },
-    "Noch keine Messung. Waage suchen und draufstellen – oder oben links **+** für manuelle Eingabe." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No measurement yet. Search for the scale and step on – or tap **+** at the top left for manual entry."
+    "Noch keine Messung. Waage suchen und draufstellen – oder oben links **+** für manuelle Eingabe.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No measurement yet. Search for the scale and step on – or tap **+** at the top left for manual entry."
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aún no hay medición. Busca la báscula y súbete – o pulsa **+** arriba a la izquierda para entrada manual."
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aún no hay medición. Busca la báscula y súbete – o pulsa **+** arriba a la izquierda para entrada manual."
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aucune mesure. Cherchez la balance et montez dessus – ou touchez **+** en haut à gauche pour la saisie manuelle."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucune mesure. Cherchez la balance et montez dessus – ou touchez **+** en haut à gauche pour la saisie manuelle."
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nessuna misurazione. Cerca la bilancia e salici sopra – o tocca **+** in alto a sinistra per l'inserimento manuale."
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessuna misurazione. Cerca la bilancia e salici sopra – o tocca **+** in alto a sinistra per l'inserimento manuale."
           }
         }
       }
     },
-    "Noch nichts empfangen." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nothing received yet."
+    "Noch nichts empfangen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nothing received yet."
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aún no se ha recibido nada."
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aún no se ha recibido nada."
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Rien reçu pour l'instant."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rien reçu pour l'instant."
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ancora nulla ricevuto."
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ancora nulla ricevuto."
           }
         }
       }
     },
-    "Noch zunehmen" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Still to gain"
+    "Noch zunehmen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Still to gain"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Por ganar"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Por ganar"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reste à prendre"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reste à prendre"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ancora da guadagnare"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ancora da guadagnare"
           }
         }
       }
-    },
-    "Normalgewicht" : {
-
     },
-    "Notiz" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Note"
+    "Normalgewicht": {},
+    "Notiz": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Note"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nota"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nota"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Note"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Note"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nota"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nota"
           }
         }
       }
     },
-    "Oberschenkel" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Thigh"
+    "Oberschenkel": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thigh"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Muslo"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Muslo"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cuisse"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cuisse"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Coscia"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coscia"
           }
         }
       }
-    },
-    "OK" : {
-
-    },
-    "Open-source smart scale companion · GPLv3" : {
-
-    },
-    "OpenTara" : {
-
     },
-    "optional" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "optional"
+    "OK": {},
+    "Open-source smart scale companion · GPLv3": {},
+    "OpenTara": {},
+    "optional": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "optional"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "opcional"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "opcional"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "facultatif"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "facultatif"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "facoltativo"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "facoltativo"
           }
         }
       }
     },
-    "Ordnet eine Messung automatisch der Person mit dem am besten passenden Gewicht zu. Bei Unklarheit fragt die App nach." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Automatically assigns a measurement to the person whose weight fits best. When unclear, the app asks."
+    "Ordnet eine Messung automatisch der Person mit dem am besten passenden Gewicht zu. Bei Unklarheit fragt die App nach.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatically assigns a measurement to the person whose weight fits best. When unclear, the app asks."
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Asigna automáticamente una medición a la persona cuyo peso encaja mejor. En caso de duda, la app pregunta."
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Asigna automáticamente una medición a la persona cuyo peso encaja mejor. En caso de duda, la app pregunta."
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Attribue automatiquement une mesure à la personne dont le poids correspond le mieux. En cas de doute, l'app demande."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Attribue automatiquement une mesure à la personne dont le poids correspond le mieux. En cas de doute, l'app demande."
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Assegna automaticamente una misurazione alla persona con il peso più simile. In caso di dubbio, l'app chiede."
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Assegna automaticamente una misurazione alla persona con il peso più simile. In caso di dubbio, l'app chiede."
           }
         }
       }
     },
-    "PDF-Bericht (für Arzt)" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "PDF report (for your doctor)"
+    "PDF-Bericht (für Arzt)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PDF report (for your doctor)"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Informe PDF (para el médico)"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Informe PDF (para el médico)"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Rapport PDF (pour le médecin)"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rapport PDF (pour le médecin)"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Report PDF (per il medico)"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Report PDF (per il medico)"
           }
         }
       }
     },
-    "Person" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Person"
+    "Person": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Person"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Persona"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Persona"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Personne"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personne"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Persona"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Persona"
           }
         }
       }
     },
-    "Profil" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Profile"
+    "Profil": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profile"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Perfil"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Perfil"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Profil"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profil"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Profilo"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profilo"
           }
         }
       }
     },
-    "Profil bearbeiten" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Edit profile"
+    "Profil bearbeiten": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit profile"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Editar perfil"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Editar perfil"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Modifier le profil"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modifier le profil"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Modifica profilo"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modifica profilo"
           }
         }
       }
     },
-    "Prognose" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Projection"
+    "Prognose": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Projection"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Previsión"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Previsión"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Prévision"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prévision"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Previsione"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Previsione"
           }
         }
       }
     },
-    "Protein" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Protein"
+    "Protein": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Protein"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Proteína"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Proteína"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Protéines"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Protéines"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Proteine"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Proteine"
           }
         }
       }
     },
-    "Referenzperson (allein)" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reference person (alone)"
+    "Referenzperson (allein)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reference person (alone)"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Persona de referencia (sola)"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Persona de referencia (sola)"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Personne de référence (seule)"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personne de référence (seule)"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Persona di riferimento (da sola)"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Persona di riferimento (da sola)"
           }
         }
       }
     },
-    "Roh-Daten (Kalibrierung)" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Raw data (calibration)"
+    "Roh-Daten (Kalibrierung)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Raw data (calibration)"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Datos brutos (calibración)"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Datos brutos (calibración)"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Données brutes (calibration)"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Données brutes (calibration)"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dati grezzi (calibrazione)"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dati grezzi (calibrazione)"
           }
         }
       }
     },
-    "Scan gestoppt" : {
-
-    },
-    "Schlank" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Slim"
+    "Scan gestoppt": {},
+    "Schlank": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Slim"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Delgado"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delgado"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mince"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mince"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Snello"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Snello"
           }
         }
       }
     },
-    "Schlank-ausgewogen" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Slim-balanced"
+    "Schlank-ausgewogen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Slim-balanced"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Delgado-equilibrado"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delgado-equilibrado"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mince-équilibré"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mince-équilibré"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Snello-equilibrato"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Snello-equilibrato"
           }
         }
       }
     },
-    "Schlank-muskulös" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Slim-muscular"
+    "Schlank-muskulös": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Slim-muscular"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Delgado-musculoso"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delgado-musculoso"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mince-musclé"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mince-musclé"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Snello-muscoloso"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Snello-muscoloso"
           }
         }
       }
     },
-    "Serie" : {
-
-    },
-    "Sichern" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Save"
+    "Serie": {},
+    "Sichern": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Guardar"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardar"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Enregistrer"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enregistrer"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Salva"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salva"
           }
         }
       }
     },
-    "Spanne" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Range"
+    "Spanne": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Range"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Rango"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rango"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Amplitude"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Amplitude"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Intervallo"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Intervallo"
           }
         }
       }
     },
-    "Speichern" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Save"
+    "Speichern": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Guardar"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardar"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Enregistrer"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enregistrer"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Salva"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salva"
           }
         }
       }
     },
-    "stabil" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "stable"
+    "stabil": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "stable"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "estable"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "estable"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "stable"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "stable"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "stabile"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "stabile"
           }
         }
       }
     },
-    "Starte…" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Starting…"
+    "Starte…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Starting…"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Iniciando…"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Iniciando…"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Démarrage…"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Démarrage…"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Avvio…"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avvio…"
           }
         }
       }
     },
-    "Statistik" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Statistics"
+    "Statistik": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Statistics"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Estadísticas"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estadísticas"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Statistiques"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Statistiques"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Statistiche"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Statistiche"
           }
         }
       }
     },
-    "Suche läuft – stoppen" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Searching – stop"
+    "Suche läuft – stoppen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Searching – stop"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Buscando – detener"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscando – detener"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Recherche… – arrêter"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recherche… – arrêter"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ricerca… – ferma"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ricerca… – ferma"
           }
         }
       }
     },
-    "Suche Waage… jetzt barfuß draufstellen" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Searching for scale… step on barefoot now"
+    "Suche Waage… jetzt barfuß draufstellen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Searching for scale… step on barefoot now"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Buscando báscula… súbete descalzo ahora"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscando báscula… súbete descalzo ahora"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Recherche de la balance… montez pieds nus maintenant"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recherche de la balance… montez pieds nus maintenant"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ricerca bilancia… salici a piedi nudi ora"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ricerca bilancia… salici a piedi nudi ora"
           }
         }
       }
     },
-    "Tägliche Wiege-Erinnerung" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Daily weigh-in reminder"
+    "Tägliche Wiege-Erinnerung": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Daily weigh-in reminder"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Recordatorio de pesaje diario"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recordatorio de pesaje diario"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Rappel de pesée quotidien"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rappel de pesée quotidien"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Promemoria pesata giornaliera"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Promemoria pesata giornaliera"
           }
         }
       }
     },
-    "Taille" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Waist"
+    "Taille": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Waist"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cintura"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cintura"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tour de taille"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tour de taille"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Vita"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vita"
           }
         }
       }
     },
-    "Taille/Größe (WHtR)" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Waist/height (WHtR)"
+    "Taille/Größe (WHtR)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Waist/height (WHtR)"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cintura/altura (WHtR)"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cintura/altura (WHtR)"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Taille/hauteur (WHtR)"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Taille/hauteur (WHtR)"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Vita/altezza (WHtR)"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vita/altezza (WHtR)"
           }
         }
       }
     },
-    "Taille/Hüfte (WHR)" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Waist/hip (WHR)"
+    "Taille/Hüfte (WHR)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Waist/hip (WHR)"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cintura/cadera (WHR)"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cintura/cadera (WHR)"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tour de taille/hanches (WHR)"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tour de taille/hanches (WHR)"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Vita/fianchi (WHR)"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vita/fianchi (WHR)"
           }
         }
       }
     },
-    "Tempo: %@/Woche (%@)" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Rate: %1$@/week (%2$@)"
+    "Tempo: %@/Woche (%@)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rate: %1$@/week (%2$@)"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ritmo: %1$@/semana (%2$@)"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ritmo: %1$@/semana (%2$@)"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Rythme : %1$@/semaine (%2$@)"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rythme : %1$@/semaine (%2$@)"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ritmo: %1$@/settimana (%2$@)"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ritmo: %1$@/settimana (%2$@)"
           }
         }
       }
     },
-    "Trend (geglättet)" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Trend (smoothed)"
+    "Trend (geglättet)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trend (smoothed)"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tendencia (suavizada)"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendencia (suavizada)"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tendance (lissée)"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendance (lissée)"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tendenza (livellata)"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendenza (livellata)"
           }
         }
       }
     },
-    "Trend: %@/Woche" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Trend: %@/week"
+    "Trend: %@/Woche": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trend: %@/week"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tendencia: %@/semana"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendencia: %@/semana"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tendance : %@/semaine"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendance : %@/semaine"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tendenza: %@/settimana"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendenza: %@/settimana"
           }
         }
       }
     },
-    "Übergewicht" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Overweight"
+    "Übergewicht": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Overweight"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sobrepeso"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sobrepeso"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Surpoids"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Surpoids"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sovrappeso"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sovrappeso"
           }
         }
       }
     },
-    "Übergewichtig" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Overweight"
+    "Übergewichtig": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Overweight"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Con sobrepeso"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Con sobrepeso"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "En surpoids"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En surpoids"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "In sovrappeso"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In sovrappeso"
           }
         }
       }
     },
-    "Uhrzeit" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Time"
+    "Uhrzeit": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Time"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Hora"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hora"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Heure"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Heure"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ora"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ora"
           }
         }
       }
     },
-    "Umfänge (optional, cm)" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Circumferences (optional, cm)"
+    "Umfänge (optional, cm)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Circumferences (optional, cm)"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Circunferencias (opcional, cm)"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Circunferencias (opcional, cm)"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Circonférences (facultatif, cm)"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Circonférences (facultatif, cm)"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Circonferenze (facoltativo, cm)"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Circonferenze (facoltativo, cm)"
           }
         }
       }
     },
-    "Untergewicht" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Underweight"
+    "Untergewicht": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Underweight"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bajo peso"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bajo peso"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Insuffisance pondérale"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Insuffisance pondérale"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sottopeso"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sottopeso"
           }
         }
       }
     },
-    "Unterstützte Waagen" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Supported scales"
+    "Unterstützte Waagen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Supported scales"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Básculas compatibles"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Básculas compatibles"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Balances prises en charge"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Balances prises en charge"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bilance supportate"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bilance supportate"
           }
         }
       }
     },
-    "Untrainiert" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Lacks exercise"
+    "Untrainiert": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lacks exercise"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Falta de ejercicio"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Falta de ejercicio"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Manque d'exercice"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manque d'exercice"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Poco allenato"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poco allenato"
           }
         }
       }
     },
-    "Verbinde mit %@…" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Connecting to %@…"
+    "Verbinde mit %@…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connecting to %@…"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Conectando con %@…"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conectando con %@…"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Connexion à %@…"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connexion à %@…"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Connessione a %@…"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connessione a %@…"
           }
         }
       }
     },
-    "Verlauf" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "History"
+    "Verlauf": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "History"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Historial"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Historial"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Historique"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Historique"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cronologia"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cronologia"
           }
         }
       }
     },
-    "Verwerfen" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Discard"
+    "Verwerfen": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Discard"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Descartar"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Descartar"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ignorer"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ignorer"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ignora"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ignora"
           }
         }
       }
     },
-    "Viszeralfett" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Visceral fat"
+    "Viszeralfett": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Visceral fat"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Grasa visceral"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grasa visceral"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Graisse viscérale"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Graisse viscérale"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Grasso viscerale"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grasso viscerale"
           }
         }
       }
     },
-    "Waage suchen" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Search for scale"
+    "Waage suchen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search for scale"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Buscar báscula"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar báscula"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Chercher la balance"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chercher la balance"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cerca bilancia"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cerca bilancia"
           }
         }
       }
     },
-    "Wasser" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Water"
+    "Wasser": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Water"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Agua"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agua"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Eau"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eau"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Acqua"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acqua"
           }
         }
       }
     },
-    "Weiblich" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Female"
+    "Weiblich": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Female"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Femenino"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Femenino"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Femme"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Femme"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Femmina"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Femmina"
           }
         }
       }
     },
-    "Wer wurde gewogen?" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Who was weighed?"
+    "Wer wurde gewogen?": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Who was weighed?"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "¿Quién se pesó?"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Quién se pesó?"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Qui a été pesé ?"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Qui a été pesé ?"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Chi è stato pesato?"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chi è stato pesato?"
           }
         }
       }
-    },
-    "Wert" : {
-
     },
-    "Ziel" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Goal"
+    "Wert": {},
+    "Ziel": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Goal"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Objetivo"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Objetivo"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Objectif"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Objectif"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Obiettivo"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obiettivo"
           }
         }
       }
     },
-    "Ziel (optional)" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Goal (optional)"
+    "Ziel (optional)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Goal (optional)"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Objetivo (opcional)"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Objetivo (opcional)"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Objectif (facultatif)"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Objectif (facultatif)"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Obiettivo (facoltativo)"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obiettivo (facoltativo)"
           }
         }
       }
     },
-    "Zielgewicht" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Target weight"
+    "Zielgewicht": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Target weight"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Peso objetivo"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Peso objetivo"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Poids cible"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poids cible"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Peso obiettivo"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Peso obiettivo"
           }
         }
       }
     },
-    "zunehmend" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "increasing"
+    "zunehmend": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "increasing"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "subiendo"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "subiendo"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "en hausse"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "en hausse"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "in aumento"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "in aumento"
           }
         }
       }
     },
-    "Zusammen (mit Baby/Tier)" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Combined (with baby/pet)"
+    "Zusammen (mit Baby/Tier)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Combined (with baby/pet)"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Juntos (con bebé/mascota)"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Juntos (con bebé/mascota)"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ensemble (avec bébé/animal)"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ensemble (avec bébé/animal)"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Insieme (con neonato/animale)"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Insieme (con neonato/animale)"
           }
         }
       }
     },
-    "Ω" : {
-
+    "Ω": {},
+    "Aus Zwischenablage importieren": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Import from clipboard"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Importar del portapapeles"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Importer depuis le presse-papiers"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Importa dagli appunti"
+          }
+        }
+      }
     }
   },
-  "version" : "1.0"
+  "version": "1.0"
 }
