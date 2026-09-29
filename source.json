@@ -15,13 +15,21 @@
       "localizedDescription": "Local, private iOS app for Bluetooth body composition scales (Xiaomi Mi Scale 2 & more). Reads your scale over Bluetooth and computes all body metrics on-device — no account, no cloud. GPLv3.",
       "iconURL": "https://raw.githubusercontent.com/etlami/opentara/main/OpenScaleIOS/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
       "tintColor": "FF7A59",
-      "version": "0.1.6",
-      "versionDate": "2026-08-10",
-      "versionDescription": "Editable goal date — backdate a goal and get a correct progress ring.",
-      "downloadURL": "https://github.com/etlami/opentara/releases/download/v0.1.6/OpenTara-v0.1.6-unsigned.ipa",
-      "size": 586698,
+      "version": "0.1.7",
+      "versionDate": "2026-09-29",
+      "versionDescription": "7-day average weight on the home screen + change vs. previous week.",
+      "downloadURL": "https://github.com/etlami/opentara/releases/download/v0.1.7/OpenTara-v0.1.7-unsigned.ipa",
+      "size": 589363,
       "minOSVersion": "17.0",
       "versions": [
+        {
+          "version": "0.1.7",
+          "date": "2026-09-29",
+          "localizedDescription": "7-day average weight on the home screen + change vs. previous week.",
+          "downloadURL": "https://github.com/etlami/opentara/releases/download/v0.1.7/OpenTara-v0.1.7-unsigned.ipa",
+          "size": 589363,
+          "minOSVersion": "17.0"
+        },
         {
           "version": "0.1.6",
           "date": "2026-08-10",
