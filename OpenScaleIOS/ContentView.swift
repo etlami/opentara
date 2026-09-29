@@ -134,6 +134,21 @@ struct ContentView: View {
                     .foregroundStyle(scale.isScanning && !scale.lastStabilized ? .secondary : .primary)
             }
 
+            if let a = sevenDayAverage() {
+                VStack(spacing: 2) {
+                    Text(verbatim: "\(String(localized: "Ø 7 Tage")): \(fmtW(a.avg, 1))")
+                        .fontWeight(.medium)
+                    if let d = a.delta {
+                        Text(verbatim: String(format: "%+.1f %@ %@",
+                                              store.weightUnit.fromKg(d),
+                                              store.weightUnit.short,
+                                              String(localized: "vs. Vorwoche")))
+                    }
+                }
+                .font(.footnote)
+                .foregroundStyle(.secondary)
+            }
+
             Button {
                 scale.isScanning ? scale.stopScan() : scale.startScan()
             } label: {
@@ -314,6 +329,21 @@ struct ContentView: View {
     private func latestMeasurement() -> ScaleMeasurement? {
         guard let id = store.activeProfileID else { return nil }
         return store.history(for: id).first
+    }
+
+    /// Ø der letzten 7 Tage + Differenz zum Ø der Tage 8–14 (Vorwoche).
+    private func sevenDayAverage() -> (avg: Double, delta: Double?)? {
+        guard let id = store.activeProfileID else { return nil }
+        let items = store.history(for: id)
+        let now = Date()
+        let day: TimeInterval = 86_400
+        let last7 = items.filter { $0.date > now - 7 * day }.map { $0.weightKg }
+        guard !last7.isEmpty else { return nil }
+        let avg = last7.reduce(0, +) / Double(last7.count)
+        let prev7 = items.filter { $0.date <= now - 7 * day && $0.date > now - 14 * day }
+            .map { $0.weightKg }
+        let delta = prev7.isEmpty ? nil : avg - prev7.reduce(0, +) / Double(prev7.count)
+        return (avg, delta)
     }
 
     /// Formatiert einen kg-Wert in der gewählten Einheit.
