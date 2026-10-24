@@ -23,12 +23,19 @@ final class ScaleManager: NSObject, ObservableObject {
     /// Wird aufgerufen, sobald eine stabilisierte Messung eintrifft.
     var onStabilizedMeasurement: ((ScaleMeasurement) -> Void)?
 
+    /// Profil + Einheit der Person, die sich wiegt. Vor `startScan()` setzen; Treiber mit
+    /// Nutzerverwaltung auf der Waage (Beurer/Sanitas) brauchen es, alle anderen ignorieren es.
+    var userContext: ScaleUserContext?
+
     private var central: CBCentralManager!
     private let drivers = ScaleDriverRegistry.all
 
     // Aktive Verbindung (für Verbindungs-Treiber)
     private var activePeripheral: CBPeripheral?
     private var activeDriver: ScaleDriver?
+    private var writeCharacteristic: CBCharacteristic?
+    private var notifyingCount = 0
+    private var driverReady = false
 
     override init() {
         super.init()
@@ -52,15 +59,27 @@ final class ScaleManager: NSObject, ObservableObject {
     func stopScan() {
         central.stopScan()
         if let p = activePeripheral { central.cancelPeripheralConnection(p) }
-        activePeripheral = nil
-        activeDriver = nil
+        activeDriver?.onDisconnected()
+        clearConnection()
         isScanning = false
         statusText = String(localized: "Scan gestoppt")
+    }
+
+    private func clearConnection() {
+        activePeripheral = nil
+        activeDriver = nil
+        writeCharacteristic = nil
+        notifyingCount = 0
+        driverReady = false
     }
 
     private func appendLog(_ line: String) {
         log.insert(line, at: 0)
         if log.count > 200 { log.removeLast(log.count - 200) }
+    }
+
+    private static func hex(_ data: Data) -> String {
+        [UInt8](data).map { String(format: "%02x", $0) }.joined(separator: " ")
     }
 
     private func handle(_ reading: ScaleReading) {
@@ -84,7 +103,7 @@ final class ScaleManager: NSObject, ObservableObject {
 
         if reading.isStabilized && !reading.weightRemoved {
             let m = ScaleMeasurement(
-                date: Date(),
+                date: reading.date ?? Date(),
                 weightKg: reading.weightKg,
                 impedance: reading.impedance,
                 isStabilized: true,
@@ -92,6 +111,41 @@ final class ScaleManager: NSObject, ObservableObject {
             )
             onStabilizedMeasurement?(m)
         }
+    }
+
+    // MARK: - Rückkanal für Verbindungs-Treiber
+
+    private func makeLink() -> ScaleDriverLink {
+        ScaleDriverLink(
+            user: userContext,
+            send: { [weak self] data in self?.write(data) },
+            log: { [weak self] line in
+                DispatchQueue.main.async { self?.appendLog(line) }
+            },
+            status: { [weak self] text in
+                DispatchQueue.main.async { self?.statusText = text }
+            }
+        )
+    }
+
+    private func write(_ data: Data) {
+        guard let peripheral = activePeripheral, let ch = writeCharacteristic else {
+            DispatchQueue.main.async { self.appendLog("→ (verworfen, keine Schreib-Characteristic) \(Self.hex(data))") }
+            return
+        }
+        let type: CBCharacteristicWriteType = ch.properties.contains(.write) ? .withResponse : .withoutResponse
+        peripheral.writeValue(data, for: ch, type: type)
+        DispatchQueue.main.async { self.appendLog("→ \(Self.hex(data))") }
+    }
+
+    /// Ruft `onReady` genau einmal, sobald mindestens eine Notification aktiv ist und die
+    /// Schreib-Characteristic (falls der Treiber eine will) gefunden wurde.
+    private func startDriverIfReady() {
+        guard !driverReady, let driver = activeDriver, let profile = driver.connectionProfile else { return }
+        guard notifyingCount > 0 || profile.notifyUUIDs.isEmpty else { return }
+        if profile.writeUUID != nil && writeCharacteristic == nil { return }
+        driverReady = true
+        driver.onReady(makeLink())
     }
 }
 
@@ -155,21 +209,25 @@ extension ScaleManager: CBCentralManagerDelegate {
     }
 
     func centralManager(_ central: CBCentralManager, didConnect peripheral: CBPeripheral) {
+        writeCharacteristic = nil
+        notifyingCount = 0
+        driverReady = false
         peripheral.discoverServices(activeDriver?.connectionProfile?.serviceUUIDs)
     }
 
     func centralManager(_ central: CBCentralManager,
                         didFailToConnect peripheral: CBPeripheral, error: Error?) {
         DispatchQueue.main.async { self.appendLog("Verbindung fehlgeschlagen") }
-        activePeripheral = nil
-        activeDriver = nil
+        clearConnection()
     }
 
     func centralManager(_ central: CBCentralManager,
                         didDisconnectPeripheral peripheral: CBPeripheral, error: Error?) {
         if peripheral == activePeripheral {
-            activePeripheral = nil
-            activeDriver = nil
+            activeDriver?.onDisconnected()
+            clearConnection()
+            let reason = error.map { ": \($0.localizedDescription)" } ?? ""
+            DispatchQueue.main.async { self.appendLog("getrennt\(reason)") }
         }
     }
 }
@@ -186,20 +244,50 @@ extension ScaleManager: CBPeripheralDelegate {
 
     func peripheral(_ peripheral: CBPeripheral,
                     didDiscoverCharacteristicsFor service: CBService, error: Error?) {
-        let notify = activeDriver?.connectionProfile?.notifyUUIDs ?? []
-        for ch in service.characteristics ?? [] where notify.contains(ch.uuid) {
-            peripheral.setNotifyValue(true, for: ch)
+        let profile = activeDriver?.connectionProfile
+        let notify = profile?.notifyUUIDs ?? []
+        for ch in service.characteristics ?? [] {
+            if let w = profile?.writeUUID, ch.uuid == w {
+                writeCharacteristic = ch
+            }
+            if notify.contains(ch.uuid) {
+                peripheral.setNotifyValue(true, for: ch)
+            }
+        }
+        startDriverIfReady()
+    }
+
+    func peripheral(_ peripheral: CBPeripheral,
+                    didUpdateNotificationStateFor characteristic: CBCharacteristic, error: Error?) {
+        if let error {
+            DispatchQueue.main.async {
+                self.appendLog("Notify \(characteristic.uuid.uuidString) fehlgeschlagen: \(error.localizedDescription)")
+            }
+            return
+        }
+        if characteristic.isNotifying {
+            notifyingCount += 1
+            startDriverIfReady()
+        }
+    }
+
+    func peripheral(_ peripheral: CBPeripheral,
+                    didWriteValueFor characteristic: CBCharacteristic, error: Error?) {
+        if let error {
+            DispatchQueue.main.async {
+                self.appendLog("Schreiben auf \(characteristic.uuid.uuidString) fehlgeschlagen: \(error.localizedDescription)")
+            }
         }
     }
 
     func peripheral(_ peripheral: CBPeripheral,
                     didUpdateValueFor characteristic: CBCharacteristic, error: Error?) {
         guard let driver = activeDriver, let data = characteristic.value else { return }
-        if let reading = driver.handle(characteristic: characteristic.uuid, data: data) {
+        let hex = Self.hex(data)
+        DispatchQueue.main.async { self.appendLog("← \(characteristic.uuid.uuidString): \(hex)") }
+        let link = makeLink()
+        if let reading = driver.handle(characteristic: characteristic.uuid, data: data, link: link) {
             DispatchQueue.main.async { self.handle(reading) }
-        } else {
-            let hex = [UInt8](characteristic.value ?? Data()).map { String(format: "%02x", $0) }.joined()
-            DispatchQueue.main.async { self.appendLog("\(characteristic.uuid.uuidString): \(hex)") }
         }
     }
 }

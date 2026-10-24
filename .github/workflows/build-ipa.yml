@@ -1,0 +1,112 @@
+# Builds OpenTara on a macOS runner: unit tests on an iOS Simulator and an unsigned
+# .ipa for sideloading (SideStore / AltStore sign it with the user's own Apple ID).
+name: Build
+
+on:
+  push:
+    paths-ignore:
+      - "**.md"
+      - "source.json"
+      - ".github/ISSUE_TEMPLATE/**"
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  unit-tests:
+    name: Unit tests (iOS Simulator)
+    runs-on: macos-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Toolchain
+        run: |
+          xcodebuild -version
+          xcodebuild -list -project OpenScaleIOS.xcodeproj
+
+      - name: Pick an iPhone simulator
+        id: sim
+        run: |
+          set -euo pipefail
+          NAME=$(xcrun simctl list devices available -j | python3 -c '
+          import json, sys
+          devices = json.load(sys.stdin)["devices"]
+          found = sorted(
+              (runtime, dev["name"])
+              for runtime, devs in devices.items() if "iOS" in runtime
+              for dev in devs if dev.get("isAvailable") and dev["name"].startswith("iPhone")
+          )
+          print(found[-1][1])')
+          echo "Using simulator: $NAME"
+          echo "name=$NAME" >> "$GITHUB_OUTPUT"
+
+      - name: xcodebuild test
+        run: |
+          set -o pipefail
+          xcodebuild test \
+            -project OpenScaleIOS.xcodeproj \
+            -scheme OpenScaleIOS \
+            -destination "platform=iOS Simulator,name=${{ steps.sim.outputs.name }}" \
+            -only-testing:OpenScaleIOSTests \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" DEVELOPMENT_TEAM="" \
+            2>&1 | tee xcodebuild-test.log
+
+      - name: Upload test log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: xcodebuild-test-log
+          path: xcodebuild-test.log
+
+  ipa:
+    name: Unsigned IPA (iOS device build)
+    runs-on: macos-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Toolchain
+        run: xcodebuild -version
+
+      - name: Build for iOS device without signing
+        run: |
+          set -o pipefail
+          xcodebuild build \
+            -project OpenScaleIOS.xcodeproj \
+            -scheme OpenScaleIOS \
+            -configuration Release \
+            -destination "generic/platform=iOS" \
+            -derivedDataPath build/DerivedData \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" DEVELOPMENT_TEAM="" \
+            CURRENT_PROJECT_VERSION=${{ github.run_number }} \
+            2>&1 | tee xcodebuild-build.log
+
+      - name: Package OpenTara-unsigned.ipa
+        run: |
+          set -euo pipefail
+          APP=build/DerivedData/Build/Products/Release-iphoneos/OpenScaleIOS.app
+          test -d "$APP"
+          rm -rf build/Payload && mkdir -p build/Payload
+          cp -R "$APP" build/Payload/
+          (cd build && zip -qry OpenTara-unsigned.ipa Payload)
+          ls -l build/OpenTara-unsigned.ipa
+          unzip -l build/OpenTara-unsigned.ipa | head -n 15
+          plutil -p "$APP/Info.plist" | grep -E "CFBundle(ShortVersionString|Version|Identifier)\""
+
+      - name: Upload IPA
+        uses: actions/upload-artifact@v4
+        with:
+          name: OpenTara-unsigned.ipa
+          path: build/OpenTara-unsigned.ipa
+          if-no-files-found: error
+
+      - name: Upload build log
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: xcodebuild-build-log
+          path: xcodebuild-build.log

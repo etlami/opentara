@@ -26,10 +26,17 @@ A scale is one file implementing `ScaleDriver`:
 - **Connection scales** (GATT): set `kind = .connection`, provide a
   `connectionProfile` (services + characteristics to subscribe) and implement
   `handle(characteristic:data:)`.
+- **Scales that need commands** (write + ack, e.g. Beurer/Sanitas): additionally set
+  `writeUUID` in the `connectionProfile`, make the driver a `final class` (it keeps state),
+  and implement `onReady(_:)` (start talking), `handle(characteristic:data:link:)`
+  (answer frames via `link.send`, log via `link.log`) and `onDisconnected()`. `link.user`
+  carries the active profile for scales with on-device user management. Keep the
+  byte-level parsing in a separate pure type so it can be unit-tested without hardware
+  (see `BeurerSanitasProtocol` + `OpenScaleIOSTests/BeurerSanitasDriverTests.swift`).
 
 Then register it in `ScaleDriverRegistry.all`. Keep `isTested = false` until it has
 been confirmed on real hardware. Look at `MiBodyCompositionScale2Driver` (advertisement)
-and `GenericSIGScaleDriver` (connection) as templates.
+`GenericSIGScaleDriver` (connection) and `BeurerSanitasDriver` (command/ack) as templates.
 
 Reference protocols live in the [openScale source](https://github.com/oliexdev/openScale/tree/master/android_app).
 
@@ -39,6 +46,12 @@ Reference protocols live in the [openScale source](https://github.com/oliexdev/o
 - Keep the core body‑metric formulas **Xiaomi/Mi‑Fit‑compatible** unless clearly labelled.
 - Never claim a driver "works" without hardware confirmation — mark it experimental.
 - Health values are estimates; don't present them as medical facts.
+
+## Tests & CI
+
+Unit tests live in `OpenScaleIOSTests/` (Swift Testing, `@testable import OpenScaleIOS`).
+The `Build` workflow runs them on an iOS Simulator and builds an unsigned `.ipa` artifact on
+every push, so a driver can be written and checked without a Mac at hand.
 
 ## Dev setup
 

@@ -38,6 +38,7 @@ See **[SUPPORTED_SCALES.md](SUPPORTED_SCALES.md)** for the live list and status.
 | Xiaomi Mi Body Composition Scale 2 (MIBFS) | advertisement | ✅ verified on hardware |
 | Xiaomi Mi Smart Scale v1 (weight only) | advertisement | 🧪 experimental |
 | Bluetooth‑SIG standard scales (0x181D / 0x181B) | connection | 🧪 experimental |
+| Beurer BF700 / BF710 / BF800, Sanitas SBF70, SilverCrest SBF75 | connection | 🧪 experimental |
 
 **Have a Bluetooth scale? We need you.** Most drivers are ported from openScale but
 **not yet verified on real hardware**. Helping is easy — see
@@ -68,6 +69,9 @@ cd opentara
 open OpenScaleIOS.xcodeproj
 ```
 
+Without a Mac: every push runs `.github/workflows/build-ipa.yml`, which runs the unit tests on a
+Simulator and uploads an unsigned `OpenTara-unsigned.ipa` artifact that SideStore/AltStore can sign.
+
 In Xcode: select your Apple ID team under *Signing & Capabilities*, pick your iPhone
 as the run destination, and press ▶. On first launch, trust the developer certificate
 under *Settings → General → VPN & Device Management* on the iPhone.
@@ -80,6 +84,8 @@ the target's Info settings.
 - `ScaleDriver` — protocol every scale implements; `ScaleDriverRegistry` lists them
 - `.advertisement` drivers parse passive BLE broadcasts (e.g. Xiaomi)
 - `.connection` drivers connect and subscribe to GATT characteristics (e.g. SIG scales)
+- Drivers that must *talk* to the scale (command/ack protocols such as Beurer/Sanitas) set a
+  `writeUUID` in their `ConnectionProfile` and get a `ScaleDriverLink` to send bytes, log and set status
 - `ScaleManager` — scans, routes packets to drivers, handles connections
 - `BodyMetrics` / `BodyMetricsExtra` — the body‑composition formulas
 - Raw BLE bytes are logged in‑app to make calibrating new scales easy

@@ -150,7 +150,15 @@ struct ContentView: View {
             }
 
             Button {
-                scale.isScanning ? scale.stopScan() : scale.startScan()
+                if scale.isScanning {
+                    scale.stopScan()
+                } else {
+                    // Waagen mit eigener Nutzerverwaltung (Beurer/Sanitas) brauchen das Profil.
+                    scale.userContext = store.activeProfile.map {
+                        ScaleUserContext(profile: $0, unit: store.weightUnit)
+                    }
+                    scale.startScan()
+                }
             } label: {
                 Label(scale.isScanning ? "Suche läuft – stoppen" : "Waage suchen",
                       systemImage: scale.isScanning ? "stop.circle" : "magnifyingglass")
